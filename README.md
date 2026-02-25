@@ -4,6 +4,7 @@ Your ClinOps Concierge for Everyday AI.
 
 ## Quick Navigation
 
+- [Getting Started Guide](GETTING_STARTED.md)
 - [Reference Docs](#reference-docs)
 - [Catalog Data (App)](#catalog-data-app)
 - [Demo Input Files](#demo-input-files)
