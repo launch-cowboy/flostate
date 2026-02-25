@@ -1,6 +1,6 @@
-# flostate
+# flo state hackathon demo
 
-Flo State demo marketplace and supporting hackathon assets.
+Your ClinOps Concierge for Everyday AI.
 
 ## Quick Navigation
 
