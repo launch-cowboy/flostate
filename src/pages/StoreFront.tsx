@@ -49,7 +49,7 @@ export default function StoreFront() {
                             </div>
                         </h1>
                         <p className="text-lg md:text-xl text-slate-300 max-w-2xl font-light">
-                            The ClinOps Concierge for Everyday AI.
+                            Your ClinOps Concierge for Everyday AI.
                         </p>
                     </div>
                     <div className="mt-8 md:mt-0 relative w-full md:w-96">

@@ -4,7 +4,7 @@ import { Card, CardHeader, CardTitle, CardContent } from './ui/card';
 import { ArrowLeft, Upload, File as FileIcon, Loader2, Download } from 'lucide-react';
 
 export default function AgentWorkspace({ agent, onBack }: { agent: any, onBack: () => void }) {
-    const [, setFile] = useState<File | null>(null);
+    const [_file, _setFile] = useState<File | null>(null);
     const [processing, setProcessing] = useState(false);
     const [result, setResult] = useState<any>(null);
 

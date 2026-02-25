@@ -1,0 +1,79 @@
+ESSENTIAL DOCUMENT REGULATORY CHECKLIST
+TMF Zone Reference: Zone 3 (Site Contact Details and Qualifications)
+Regulatory Basis: ICH E6(R3) §8.2 (Before the Clinical Phase), §8.3 (During the Clinical Conduct), §8.4 (After Completion/Termination)
+Based on: ICH E8 Essential Documents for the Conduct of a Clinical Trial
+Florence eBinder Zone Mapping: Cross-referenced with 16-zone eISF taxonomy
+Protocol: ONK-301-2025 | Phase III | NSCLC
+Site: Metro Clinical Research Center (SITE-2198)
+PI: Dr. Amanda Chen, MD, PhD
+Prepared by: Flo State Virtual SMO Layer
+Report Date: 2026-02-25
+
+================================================================================
+CHECKLIST: BEFORE THE CLINICAL PHASE OF THE TRIAL (ICH §8.2)
+================================================================================
+Item_#,ICH_Ref,Document,Responsible_Party,Florence_eBinder_Zone,eISF_Filing_Location,Status,Version_Date,Expiration,Notes
+8.2.1,§8.2.1,"Investigator's Brochure (IB)",Sponsor → Site,Zone 6.1,"6. Investigator's Brochure/",Current,v5.0 (2025-07-15),N/A,"Receipt acknowledged. Staff re-trained."
+8.2.2,§8.2.2,"Signed Protocol and Amendments",Sponsor ↔ Site,Zone 11.1 + 11.4,"11. Protocol/11.1. Protocol/",Current,v1.2 (2026-01-10),N/A,"Protocol v1.2 + signature page signed."
+8.2.3,§8.2.3,"Informed Consent Form (ICF)",Site + IRB,Zone 17.1,"17. Informed Consent Documents/17.1. ICF Template/",Current,v3.0 (2025-09-01),N/A,"IRB-approved v3.0. All 8 subjects consented on current version."
+8.2.4,§8.2.4,"Financial Disclosure Form (FDF)",Site → Sponsor,Zone 5.1,"5. Financial Disclosure Forms/",Current,"3 signed (Chen, Patel, Lee)",N/A,"Dr. Wong FDF not yet submitted (DERM-110 delegation pending)."
+8.2.5,§8.2.5,"FDA Form 1572",Site → FDA/Sponsor,Zone 2.5,"2. Investigator Agreement/2.5. Form FDA 1572/",Action Required,v2.0 (2025-08-16),N/A,"Needs update — Dr. Emily Lee added as Sub-I. New signature needed."
+8.2.6,§8.2.6,"CV of Investigator(s)",Site,Zone 3.1 + 3.2,"3. Site Contact Details and Qualifications/",Mixed,Various,2-year validity,"PI CV (2024-08-15) current. Sub-I CVs: Patel (2023-11-15) approaching 2yr."
+8.2.7,§8.2.7,"Medical License(s)",Site,Zone 3.3,"3. Site Contact Details and Qualifications/",CRITICAL,TX M12345,2025-09-30 (EXPIRED),"PI license expired. Verify renewal immediately."
+8.2.8,§8.2.8,"Clinical Trial Agreement (CTA)",Sponsor ↔ Site,Zone 2.1,"2. Investigator Agreement/2.1. Clinical Trial Agreement/",Current,Executed 2025-11-10,N/A,"Fully executed. Budget addendum #1 filed."
+8.2.9,§8.2.9,"IRB/EC Approval",IRB → Site,Zone 9 (4.1),"/9. IRB-EC Approvals and Correspondence/",Current,WCG IRB 2025-09-22,2026-09-22,"Initial + 2 amendments approved."
+8.2.10,§8.2.10,"IRB/EC Composition",IRB,Zone 9,"— (maintained by WCG IRB)",Current,N/A,N/A,"Central IRB. Composition available on WCG website."
+8.2.11,§8.2.11,"GCP Training Documentation",Site,Zone 5.3 (3.4/3.5),"3. Site Contact Details and Qualifications/",Mixed,Various,3-year validity,"PI current (2027-01). Patel OVERDUE (2025-09). Williams OVERDUE (2025-04)."
+8.2.12,§8.2.12,"Lab Normal Ranges",Lab → Site,Zone 13.2,"13. Laboratory Documentation/13.2. Lab Normal Reference Ranges/",Current,Quest 2024 ranges,Annual update,"Annual update expected Q1 2026."
+8.2.13,§8.2.13,"Lab Certifications",Lab,Zone 13.3,"13. Laboratory Documentation/13.3. Lab Qualifications/",Current,CLIA #45D1234567,2026-05-01,—
+8.2.14,§8.2.14,"Delegation of Responsibilities Log",Site,Zone 12.2,"12. Delegation of Authority/12.2. Delegation of Responsibilities Log/",Action Required,v4.1 (2025-08-15),N/A,"Dr. Wong signature pending. Updated version not yet in eTMF."
+8.2.15,§8.2.15,"Recruitment Plan/Materials",Site + Sponsor,Zone 9,"9. IRB-EC Approvals/",Current,IRB-approved 2025-09-22,N/A,"Recruitment flyer + physician referral letter approved."
+
+================================================================================
+CHECKLIST: DURING THE CLINICAL CONDUCT (ICH §8.3)
+================================================================================
+Item_#,ICH_Ref,Document,Responsible_Party,Florence_eBinder_Zone,eISF_Filing_Location,Status,Current_Status_Detail,Notes
+8.3.1,§8.3.1,"IB Updates",Sponsor → Site,Zone 6.1,"6. Investigator's Brochure/",Current,"IB v5.0 on file. v4.0 archived.",—
+8.3.2,§8.3.2,"Protocol Amendments",Sponsor ↔ Site,Zone 11.1,"11. Protocol/11.1. Protocol/",Current,"AMD-001 + AMD-002 filed. IRB approvals on file.",—
+8.3.3,§8.3.3,"ICF Revisions",Site + IRB,Zone 17.1,"17. Informed Consent Documents/",Current,"v3.0 current. v1.0 and v2.0 archived.","All 8 subjects re-consented on v3.0."
+8.3.4,§8.3.4,"Continuing Review Approvals",IRB → Site,Zone 9 (4.3),"9. IRB-EC Approvals/",Current,"Annual approval valid through 2026-09-22.",—
+8.3.5,§8.3.5,"Safety Reports (IND Safety)",Sponsor ↔ Site/IRB,Zone 19.2,"19. Safety Information/19.2. SAEs/",Current,"1 SAE reported (Subject 003, Grade 3 hepatitis). Filed in eISF and reported to IRB.","24-hr reporting compliance maintained."
+8.3.6,§8.3.6,"Source Documents",Site,Zone 15,"15. Study Subject Information/",Current,"Source completed for all 8 subjects through current visit.",—
+8.3.7,§8.3.7,"CRF / EDC Data",Site,Zone 16.2,"16. Case Report Forms/",Current,"Medidata Rave. 3 open queries (avg age 8.2 days).",—
+8.3.8,§8.3.8,"Monitoring Visit Reports",Sponsor (CRA),Zone 22.5 + 22.6,"22. Site Monitoring Visits/",Current,"SIV + RMV #1 + RMV #2 reports finalized. All action items closed.",—
+8.3.9,§8.3.9,"Protocol Deviation Reports",Site,Zone 9,"9. IRB-EC Approvals/",Current,"1 deviation (Subject 008, missed visit window). Reported to IRB. Acknowledged.",—
+8.3.10,§8.3.10,"IP Accountability Records",Site + Pharmacist,Zone 14.1,"14. IP Documentation/",Current,"IVRS reconciled. 36 vials received, 28 dispensed, 2 destroyed, 6 in storage.",—
+8.3.11,§8.3.11,"Temperature Monitoring Logs",Site,Zone 14.4,"14. IP Documentation/14.4. Temperature Excursion/",Current,"Continuous BioT monitoring. No excursions.",—
+8.3.12,§8.3.12,"Enrollment/Screening Logs",Site,Zone 15.1 + 15.3,"15. Study Subject Information/",Current,"14 screened, 8 enrolled, 6 screen failures.",—
+8.3.13,§8.3.13,"Subject Identification Log",Site,Zone 20.4,"20. Confidential Site Documents/",Current,"Code break envelopes sealed. Locked in Room 410.",—
+
+================================================================================
+CHECKLIST: AFTER COMPLETION OR TERMINATION (ICH §8.4)
+================================================================================
+Item_#,ICH_Ref,Document,Responsible_Party,Florence_eBinder_Zone,Status,Notes
+8.4.1,§8.4.1,"Close-Out Monitoring Visit Report",Sponsor (CRA),Zone 22.1,"N/A — study ongoing","Not yet applicable."
+8.4.2,§8.4.2,"Final Study Report",Sponsor,N/A,"N/A — study ongoing","Not yet applicable."
+8.4.3,§8.4.3,"IRB Notification of Study Completion",Site → IRB,Zone 9,"N/A — study ongoing","Not yet applicable."
+8.4.4,§8.4.4,"IP Final Reconciliation and Destruction",Site + Pharmacist,Zone 14.1,"N/A — study ongoing","Not yet applicable."
+8.4.5,§8.4.5,"Record Retention Documentation",Site,"N/A","N/A — study ongoing","Retention period: ≥2 years after last FDA approval or investigation discontinuation per 21 CFR 312.62."
+
+================================================================================
+COMPLIANCE SUMMARY
+================================================================================
+ICH Phase,Total_Documents,Compliant,Action_Required,Deficient/Overdue,Compliance_Rate
+Before Trial (§8.2),15,11,2,2,73%
+During Trial (§8.3),13,13,0,0,100%
+After Trial (§8.4),5,N/A,N/A,N/A,"Study ongoing"
+OVERALL (Active),28,24,2,2,86%
+
+CRITICAL DEFICIENCIES (Require Immediate Action):
+1. PI Medical License (TX M12345) — EXPIRED 2025-09-30. Verify renewal before next patient visit.
+2. Dr. Robert Williams GCP — EXPIRED 2025-04-01. Remove from delegation until recertified.
+
+ACTION ITEMS:
+3. Update FDA Form 1572 with Dr. Emily Lee as Sub-Investigator.
+4. Obtain Dr. Wong delegation log signature for DERM-110.
+5. Collect updated CV for Dr. Sunita Patel (approaching 2-year limit).
+
+COMPLIANCE NOTE
+"This checklist is generated by the Florence Flo State Virtual SMO Layer. It maps ICH E6(R3) §8 essential documents to the Florence eBinder (eISF) 16-zone structure. Compliance assessments are advisory and require verification against source documents by authorized site personnel."

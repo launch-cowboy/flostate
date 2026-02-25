@@ -3,8 +3,8 @@ import { useParams, useNavigate } from 'react-router-dom';
 import catalogData from '../data/store_catalog.json';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import { ArrowLeft, CheckCircle2, FileText, ToggleRight, Loader2, Sparkles, Database, Play, Info, Users, Clock } from 'lucide-react';
-import { Badge } from '@/components/ui/badge';
+import { ArrowLeft, CheckCircle2, FileText, ToggleRight, Loader2, Sparkles, Play, Info, Users, Clock } from 'lucide-react';
+import TemplateWorkspaceRenderer from '../components/TemplateWorkspaceRenderer';
 
 export default function TemplateRoute() {
     const { id } = useParams();
@@ -128,7 +128,7 @@ export default function TemplateRoute() {
     return (
         <div className="absolute inset-0 bg-slate-50 z-50 overflow-auto flex flex-col">
             <div className="bg-white border-b border-slate-200 sticky top-0 z-10 p-4 flex items-center shadow-sm">
-                <Button variant="ghost" onClick={() => setIsInstalling(false)} className="mr-4">
+                <Button variant="ghost" onClick={() => navigate('/')} className="mr-4">
                     <ArrowLeft className="w-4 h-4 mr-2" /> Exit Installation
                 </Button>
                 <div>
@@ -182,26 +182,8 @@ export default function TemplateRoute() {
                                 </CardContent>
                             </>
                         ) : (
-                            <CardContent className="p-10 text-center animate-in fade-in zoom-in-105 duration-700">
-                                <div className="w-20 h-20 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center mx-auto mb-6">
-                                    <CheckCircle2 size={40} className="animate-bounce" />
-                                </div>
-                                <h2 className="text-3xl font-extrabold text-slate-900 mb-2">Installation Complete!</h2>
-                                <p className="text-slate-600 mb-8 max-w-sm mx-auto">The {template.name} has been successfully deployed to your active workspace.</p>
-
-                                <div className="bg-slate-50 border border-slate-100 rounded-2xl p-6 text-left mb-8 shadow-inner">
-                                    <h3 className="font-bold text-slate-800 mb-4 flex items-center"><Database className="w-5 h-5 mr-2 text-florence-indigo" /> Pre-Configured Assets</h3>
-                                    <div className="flex flex-wrap gap-2">
-                                        <Badge variant="outline" className="bg-white border-slate-200">ICF Templates</Badge>
-                                        <Badge variant="outline" className="bg-white border-slate-200">eTMF Mapping</Badge>
-                                        <Badge variant="outline" className="bg-white border-slate-200">Site SOP Queries</Badge>
-                                        <Badge variant="outline" className="bg-white border-slate-200">1572 Sub-Agent</Badge>
-                                    </div>
-                                </div>
-
-                                <Button className="w-full bg-emerald-600 hover:bg-emerald-700 text-white rounded-xl h-14 text-lg font-bold shadow-lg" onClick={() => navigate('/')}>
-                                    Open New Workspace
-                                </Button>
+                            <CardContent className="p-0">
+                                <TemplateWorkspaceRenderer template={template} onBack={() => navigate('/')} />
                             </CardContent>
                         )}
                     </Card>

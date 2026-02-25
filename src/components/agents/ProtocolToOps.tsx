@@ -3,6 +3,7 @@ import { Button } from '../ui/button';
 import { Card, CardHeader, CardTitle, CardContent } from '../ui/card';
 import { ArrowLeft, Upload, File as FileIcon, Loader2, Download, CalendarDays, FileCheck, GraduationCap, ClipboardList, Timer, CheckCircle2, User, Users, Beaker, Activity, FileText } from 'lucide-react';
 import { Badge } from '../ui/badge';
+import { downloadFile } from '../../lib/download';
 
 export default function ProtocolToOps({ agent, onBack }: { agent: any, onBack: () => void }) {
     const [processing, setProcessing] = useState(false);
@@ -54,6 +55,8 @@ export default function ProtocolToOps({ agent, onBack }: { agent: any, onBack: (
             }, index * 200);
         });
     };
+
+    // Download handled by centralized utility
 
     const tabs = [
         { id: 'schedule', name: 'Visit Schedule', icon: CalendarDays },
@@ -131,13 +134,13 @@ export default function ProtocolToOps({ agent, onBack }: { agent: any, onBack: (
                             <CardHeader className="bg-white border-b border-slate-100 flex flex-row items-center justify-between pb-4">
                                 <CardTitle className="text-lg">Operational Package Output</CardTitle>
                                 {result && (
-                                    <a
-                                        href="/downloads/Visit_Schedule_Operations.csv"
-                                        download="DERM110_Operations_Bundle.csv"
+                                    <button
+                                        type="button"
+                                        onClick={() => downloadFile('/downloads/Visit_Schedule_Operations.csv', 'DERM110_Operations_Bundle.csv')}
                                         className="inline-flex items-center justify-center whitespace-nowrap text-sm bg-white border border-slate-200 hover:bg-slate-100 hover:text-slate-900 text-slate-900 rounded-lg shadow-sm font-medium h-9 px-3"
                                     >
                                         <Download className="w-4 h-4 mr-2" /> Export Operations Bundle
-                                    </a>
+                                    </button>
                                 )}
                             </CardHeader>
                             <CardContent className="p-0 flex-grow flex flex-col">
@@ -314,9 +317,9 @@ export default function ProtocolToOps({ agent, onBack }: { agent: any, onBack: (
                                                             { title: 'Concomitant Medications Log', type: 'Log', pages: 1, req: 'Rolling' },
                                                             { title: 'Investigational Product Accountability', type: 'Pharmacy', pages: 1, req: 'Required V2-V6' },
                                                         ].map((doc, idx) => (
-                                                            <a
-                                                                href="/downloads/DERM110_SourceTemplate.txt"
-                                                                download={`${doc.title.replace(/\s+/g, '_')}.txt`}
+                                                            <button
+                                                                type="button"
+                                                                onClick={() => downloadFile('/downloads/DERM110_SourceTemplate.txt', `${doc.title.replace(/\s+/g, '_')}.txt`)}
                                                                 key={idx}
                                                                 className="w-full flex items-center justify-between p-3 bg-white border border-slate-200 rounded-lg hover:border-blue-300 hover:bg-slate-50 transition-colors shadow-sm cursor-pointer group outline-none focus:ring-2 focus:ring-blue-500"
                                                             >
@@ -337,7 +340,7 @@ export default function ProtocolToOps({ agent, onBack }: { agent: any, onBack: (
                                                                     <Badge variant="outline" className="bg-slate-50">{doc.req}</Badge>
                                                                     <Download className="w-4 h-4 text-slate-300 group-hover:text-blue-500 opacity-0 group-hover:opacity-100 transition-opacity" />
                                                                 </div>
-                                                            </a>
+                                                            </button>
                                                         ))}
                                                     </div>
                                                 </div>
@@ -372,17 +375,17 @@ export default function ProtocolToOps({ agent, onBack }: { agent: any, onBack: (
                                                                 <div className="w-full bg-slate-100 h-2 rounded-full overflow-hidden">
                                                                     <div className="bg-blue-500 h-full w-[38%]"></div>
                                                                 </div>
-                                                                <p className="text-xs text-slate-500 mt-2">Driver: High frequency of required visits (every 7 days during Tx).</p>
+                                                                <p className="text-xs text-slate-500 mt-2">Driver: Requires concurrent Investigator and Pharmacist availability for early visits.</p>
                                                             </div>
                                                             <div>
                                                                 <div className="flex justify-between text-sm mb-1">
-                                                                    <span className="font-medium text-slate-700 flex items-center"><FileText className="w-4 h-4 mr-2 text-emerald-500" /> Documentation / eCRF Prep</span>
+                                                                    <span className="font-medium text-slate-700 flex items-center"><FileText className="w-4 h-4 mr-2 text-amber-500" /> Documentation & eCRF</span>
                                                                     <span className="font-bold text-slate-900">2.0 Hrs</span>
                                                                 </div>
                                                                 <div className="w-full bg-slate-100 h-2 rounded-full overflow-hidden">
-                                                                    <div className="bg-emerald-500 h-full w-[14%]"></div>
+                                                                    <div className="bg-amber-500 h-full w-[14%]"></div>
                                                                 </div>
-                                                                <p className="text-xs text-slate-500 mt-2">Driver: Complex inclusion/exclusion criteria documentation.</p>
+                                                                <p className="text-xs text-slate-500 mt-2">Driver: High volume of ConMed log updates.</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -399,3 +402,4 @@ export default function ProtocolToOps({ agent, onBack }: { agent: any, onBack: (
         </div>
     );
 }
+

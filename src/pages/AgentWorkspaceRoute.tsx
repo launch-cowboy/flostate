@@ -25,7 +25,7 @@ export default function AgentWorkspaceRoute() {
     }
 
     if (isWorkspaceActive) {
-        return <AgentWorkspaceRenderer agent={agent} onBack={() => setIsWorkspaceActive(false)} />;
+        return <AgentWorkspaceRenderer agent={agent} onBack={() => navigate('/')} />;
     }
 
     return (

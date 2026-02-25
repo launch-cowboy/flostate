@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Button } from '../ui/button';
 import { Card, CardHeader, CardTitle, CardContent } from '../ui/card';
 import { ArrowLeft, Play, Shield, Activity, UserCheck, FileText, CheckCircle2, Upload, Download } from 'lucide-react';
+import { downloadFile } from '../../lib/download';
 
 export default function RegulatoryFactory({ agent, onBack }: { agent: any, onBack: () => void }) {
     const [running, setRunning] = useState(false);
@@ -89,13 +90,12 @@ export default function RegulatoryFactory({ agent, onBack }: { agent: any, onBac
                                         <p className="font-medium">1 New Sub-Investigator added since V2.</p>
                                     </div>
                                     <div className="pt-2">
-                                        <a
-                                            href="/downloads/DERM110_Form1572_Final.txt"
-                                            download="DERM110_Form1572_Final.txt"
-                                            className="inline-flex w-full items-center justify-center whitespace-nowrap text-xs bg-indigo-50 border border-indigo-200 hover:bg-indigo-100 hover:text-indigo-900 text-indigo-700 rounded-lg shadow-sm font-semibold h-8 px-3 transition-colors"
+                                        <button
+                                            onClick={() => downloadFile('/downloads/DERM110_Form1572_Final.txt', 'DERM110_Form1572_Final.txt')}
+                                            className="inline-flex w-full items-center justify-center whitespace-nowrap text-xs bg-indigo-50 border border-indigo-200 hover:bg-indigo-100 hover:text-indigo-900 text-indigo-700 rounded-lg shadow-sm font-semibold h-8 px-3 transition-colors cursor-pointer"
                                         >
                                             <Download className="w-3 h-3 mr-2" /> Export Pre-Populated 1572
-                                        </a>
+                                        </button>
                                     </div>
                                 </div>
                             ) : (

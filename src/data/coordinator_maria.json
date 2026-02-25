@@ -1,132 +1,263 @@
 {
     "name": "Maria Rodriguez",
-    "role": "Senior Clinical Research Coordinator",
+    "role": "Lead Clinical Research Coordinator",
     "site": "Metro Clinical Research Center",
-    "date": "2026-02-23",
+    "city": "Houston, TX",
+    "date": "2026-02-25",
+    "workload": {
+        "activeStudies": 4,
+        "studyThreshold": 8,
+        "activePatients": 22,
+        "patientThreshold": 30,
+        "riskLevel": "Within Capacity"
+    },
     "activeStudies": [
         {
             "id": "ONK-301",
-            "name": "Phase III NSCLC",
+            "name": "Phase III NSCLC — Florence Pharma",
             "status": "recruiting",
-            "patients": 12
-        },
-        {
-            "id": "CNS-205",
-            "name": "Phase II Alzheimer's",
-            "status": "active",
-            "patients": 8
+            "patients": 8,
+            "target": 15,
+            "docCompleteness": 88,
+            "regulatoryStatus": "yellow",
+            "openQueries": 3,
+            "riskRating": "Medium"
         },
         {
             "id": "DERM-110",
-            "name": "Phase III Psoriasis",
-            "status": "startup",
-            "patients": 0
-        },
-        {
-            "id": "CARD-404",
-            "name": "Phase II Heart Failure",
+            "name": "Phase III Plaque Psoriasis — Florence Pharma",
             "status": "recruiting",
-            "patients": 5
+            "patients": 7,
+            "target": 12,
+            "docCompleteness": 95,
+            "regulatoryStatus": "green",
+            "openQueries": 1,
+            "riskRating": "Low"
         },
         {
-            "id": "RARE-009",
-            "name": "Phase I Gene Therapy",
+            "id": "CNS-205",
+            "name": "Phase II Alzheimer's Disease — Florence Pharma",
             "status": "active",
-            "patients": 2
+            "patients": 5,
+            "target": 8,
+            "docCompleteness": 82,
+            "regulatoryStatus": "yellow",
+            "openQueries": 4,
+            "riskRating": "Medium"
         },
         {
-            "id": "ONK-202",
-            "name": "Phase II Breast Cancer",
-            "status": "follow-up",
-            "patients": 20
-        },
-        {
-            "id": "ONK-505",
-            "name": "Phase I Solid Tumor",
+            "id": "LUNG-812",
+            "name": "Phase III NSCLC 2nd Line — Merck",
             "status": "recruiting",
-            "patients": 3
-        },
-        {
-            "id": "CNS-101",
-            "name": "Phase III MS",
-            "status": "close-out",
-            "patients": 15
+            "patients": 16,
+            "target": 18,
+            "docCompleteness": 98,
+            "regulatoryStatus": "green",
+            "openQueries": 0,
+            "riskRating": "Low"
         }
     ],
     "tasks": [
         {
             "id": "t1",
-            "title": "Submit ONK-301 Protocol Amendment 4 to IRB",
-            "priority": "high",
-            "due": "Today, 5:00 PM"
+            "title": "Monitoring Visit at 10:30 AM — CNS-205 (CRA: Sarah Miller, Florence)",
+            "priority": "P1",
+            "due": "TODAY 10:30 AM",
+            "study": "CNS-205",
+            "type": "monitoring"
         },
         {
             "id": "t2",
-            "title": "Complete EDC data entry for Patient 104 (CNS-205)",
-            "priority": "high",
-            "due": "Today, EOD"
+            "title": "Review AI-drafted response to Pfizer query: ONK-301 Protocol Deviation (Subject 008)",
+            "priority": "P1",
+            "due": "TODAY 12:00 PM",
+            "study": "ONK-301",
+            "type": "query"
         },
         {
             "id": "t3",
-            "title": "Prep for DERM-110 Site Initiation Visit",
-            "priority": "medium",
-            "due": "Tomorrow, 9:00 AM"
+            "title": "Forward GCP renewal reminder to Dr. Patel (expires in 14 days)",
+            "priority": "P2",
+            "due": "TODAY",
+            "study": "All Studies",
+            "type": "credential"
         },
         {
             "id": "t4",
-            "title": "Resolve 5 open queries on RARE-009",
-            "priority": "medium",
-            "due": "Feb 25"
+            "title": "Obtain PI signature on updated Delegation Log (Dr. Wong pending DERM-110)",
+            "priority": "P2",
+            "due": "TODAY",
+            "study": "DERM-110",
+            "type": "regulatory"
         },
         {
             "id": "t5",
-            "title": "Obtain PI signature on updated Delegation Log",
-            "priority": "high",
-            "due": "Today"
+            "title": "Complete EDC data entry for Patient 104 visit (CNS-205)",
+            "priority": "P3",
+            "due": "TODAY EOD",
+            "study": "CNS-205",
+            "type": "data"
+        },
+        {
+            "id": "t6",
+            "title": "Submit IRB Continuing Review package for CNS-205",
+            "priority": "P3",
+            "due": "Feb 28",
+            "study": "CNS-205",
+            "type": "regulatory"
+        },
+        {
+            "id": "t7",
+            "title": "Resolve 3 open queries on ONK-301 (avg age: 8.2 days)",
+            "priority": "P4",
+            "due": "This Week",
+            "study": "ONK-301",
+            "type": "query"
         }
     ],
+    "monitoringVisitPrep": {
+        "study": "CNS-205",
+        "visitType": "Routine Monitoring Visit",
+        "date": "2026-02-25",
+        "time": "10:30 AM",
+        "cra": "Sarah Miller (Florence Pharmaceuticals)",
+        "overallReadiness": 92,
+        "documents": [
+            {
+                "zone": "11.1",
+                "name": "Protocol v1.4",
+                "status": "current",
+                "detail": "Filed — version matches eTMF"
+            },
+            {
+                "zone": "2.5",
+                "name": "FDA Form 1572",
+                "status": "action",
+                "detail": "Needs PI signature after Sub-I addition (Dr. Lee)"
+            },
+            {
+                "zone": "12.2",
+                "name": "Delegation of Responsibilities Log",
+                "status": "missing",
+                "detail": "Dr. Wong signature PENDING — not yet active for DERM-110"
+            },
+            {
+                "zone": "5.1",
+                "name": "Financial Disclosure Forms",
+                "status": "current",
+                "detail": "All 4 FDFs on file — signed and current"
+            },
+            {
+                "zone": "4.1",
+                "name": "IRB Approval Letter",
+                "status": "current",
+                "detail": "Initial + Amendment 1 + Amendment 2 approvals filed"
+            },
+            {
+                "zone": "17.1",
+                "name": "Informed Consent (ICF v3.0)",
+                "status": "current",
+                "detail": "Current version, all 5 patients consented on v3.0"
+            },
+            {
+                "zone": "13.2",
+                "name": "Lab Normal Reference Ranges",
+                "status": "current",
+                "detail": "Quest Diagnostics ranges — current"
+            },
+            {
+                "zone": "6.1",
+                "name": "IP Accountability Log",
+                "status": "current",
+                "detail": "IVRS reconciled — 12 vials received, 8 dispensed, 4 in storage"
+            },
+            {
+                "zone": "5.2",
+                "name": "PI CV",
+                "status": "action",
+                "detail": "CV dated 2024 — within 2 year validity but recommend update"
+            },
+            {
+                "zone": "22.8",
+                "name": "Monitoring Visit Log",
+                "status": "current",
+                "detail": "3 prior visits documented (SIV + 2 routine)"
+            },
+            {
+                "zone": "15.1",
+                "name": "Enrollment Log",
+                "status": "current",
+                "detail": "5 subjects enrolled, log current"
+            },
+            {
+                "zone": "5.3",
+                "name": "Site Evidence of Training",
+                "status": "action",
+                "detail": "CDR rater recertification due — confirm with vendor"
+            }
+        ]
+    },
     "alerts": [
         {
             "id": "a1",
             "severity": "critical",
-            "message": "Sub-I Dr. Chen's Medical License expires in 7 days."
+            "message": "Dr. Robert Williams GCP Certification OVERDUE (expired 2025-04-01). Cannot perform delegated tasks until recertified.",
+            "study": "ONK-301, CNS-205"
         },
         {
             "id": "a2",
-            "severity": "major",
-            "message": "Temperature excursion detected in Pharmacy Fridge B (-80C)."
+            "severity": "urgent",
+            "message": "Dr. Sunita Patel GCP Certification expires 2025-09-01 (OVERDUE). Must recertify for continued study participation.",
+            "study": "ONK-301, CNS-205"
         },
         {
             "id": "a3",
-            "severity": "minor",
-            "message": "Missed follow-up window for Subject 003 (CARD-404)."
+            "severity": "urgent",
+            "message": "Dr. Amanda Chen Medical License (TX M12345) expired 2025-09-30 — verify renewal status immediately.",
+            "study": "All Studies"
+        },
+        {
+            "id": "a4",
+            "severity": "important",
+            "message": "Dr. Alex Wong Delegation Log signature for DERM-110 PENDING. Cannot perform delegated tasks.",
+            "study": "DERM-110"
         }
     ],
     "communications": [
         {
             "id": "c1",
-            "type": "Draft Email",
-            "to": "c.monitor@sponsor.com",
-            "subject": "Re: ONK-301 Missing ICF",
-            "preview": "I have located the missing Version 2.0 ICF for subject 402 and uploaded it to the eTMF..."
+            "type": "Query Response",
+            "to": "Pfizer CRA (m.hoffman@pfizer.com)",
+            "study": "ONK-301",
+            "subject": "Re: Protocol Deviation — Subject 008 Missed C3D1 Visit Window",
+            "preview": "The visit window exceedance for Subject 008 (Cycle 3 Day 1) was due to a weather-related site closure on Feb 18-19. The patient presented on Feb 22 (3 days outside the ±3 day window). All protocol-required assessments were completed. A protocol deviation form has been submitted to the IRB and is attached..."
         },
         {
             "id": "c2",
-            "type": "Draft IRB Submission",
-            "to": "Metro IRB",
-            "subject": "Protocol Deviation - Subject 105",
-            "preview": "Subject 105 missed their Window 4 visit due to extreme weather..."
+            "type": "IRB Submission",
+            "to": "WCG IRB (submissions@wcgirb.com)",
+            "study": "CNS-205",
+            "subject": "Continuing Review — Protocol CNS-205-2024 v1.4",
+            "preview": "Please find attached the continuing review package for Protocol CNS-205-2024. Current enrollment: 5 of 8 target patients. No SAEs since last review. One protocol deviation (Subject 104, missed MRI window) reported and acknowledged. Study remains open to enrollment..."
         }
     ],
     "scheduleConflicts": [
         {
-            "date": "Tomorrow",
+            "date": "Tomorrow (Feb 26)",
             "studies": [
-                "DERM-110",
-                "ONK-202"
+                "ONK-301",
+                "CNS-205"
             ],
-            "issue": "Double-booked monitoring visits for CRA Smith and CRA Jones in Conference Room A.",
-            "recommendation": "Move CRA Jones to Office Suite 3."
+            "issue": "Two monitoring visits scheduled at 2:00 PM — Pfizer CRA and Florence CRA both confirmed for Conference Room A.",
+            "recommendation": "Reschedule Florence CRA (CNS-205) to Feb 27, 10:00 AM. CRA confirmed available. Room B reserved."
+        },
+        {
+            "date": "Mar 1",
+            "studies": [
+                "ONK-301"
+            ],
+            "issue": "Subject 008 (ONK-301, C4D1) and Subject 005 (CNS-205, infusion visit) both scheduled at 9:00 AM. Maria cannot prep both simultaneously.",
+            "recommendation": "Move CNS-205 Subject 005 to 1:00 PM. James O'Connor available to assist with morning prep."
         }
     ]
 }

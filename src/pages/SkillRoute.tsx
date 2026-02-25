@@ -1,12 +1,15 @@
+import { useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import catalogData from '../data/store_catalog.json';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { ArrowLeft, Clock, Users, Play, Info } from 'lucide-react';
+import SkillWorkspaceRenderer from '../components/SkillWorkspaceRenderer';
 
 export default function SkillRoute() {
     const { id } = useParams();
     const navigate = useNavigate();
+    const [isWorkspaceActive, setIsWorkspaceActive] = useState(false);
 
     const skill = catalogData.find(item => (item.slug === id || item.id === id) && item.type === 'skill');
 
@@ -21,8 +24,10 @@ export default function SkillRoute() {
         );
     }
 
-    // Usually skills activate within StoreFront state. In this static presentation layer, 
-    // clicking "Activate Skill" from the details page will navigate back to the store.
+    if (isWorkspaceActive) {
+        return <SkillWorkspaceRenderer skill={skill} onBack={() => navigate('/')} />;
+    }
+
     return (
         <div className="min-h-screen bg-slate-50 font-sans pb-24">
             <div className="bg-florence-indigo text-white pt-16 pb-32 px-4 md:px-8 shadow-inner relative overflow-hidden">
@@ -38,9 +43,9 @@ export default function SkillRoute() {
                         <Button
                             size="lg"
                             className="bg-florence-coral hover:bg-florence-coral/90 text-white font-bold px-8 shadow-lg shadow-florence-coral/20"
-                            onClick={() => navigate('/')}
+                            onClick={() => setIsWorkspaceActive(true)}
                         >
-                            <Play className="w-5 h-5 mr-2" /> Activate to Workspace
+                            <Play className="w-5 h-5 mr-2" /> Activate Skill
                         </Button>
                     </div>
                 </div>
