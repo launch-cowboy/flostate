@@ -1,0 +1,64 @@
+SITE ACTIVATION TRACKER — ONK-301-2025
+TMF Zone Reference: Zone 5 (Site Management), Zone 22 (Monitoring Visits)
+Regulatory Basis: ICH E6(R3) §5.15 (Record Access), §5.18 (Monitoring)
+Sponsor: Florence Pharmaceuticals
+Last Updated: 2026-02-25
+Protocol: ONK-301-2025 | Phase III | NSCLC
+Target Sites: 30 | Target Enrollment: 450 patients
+ClinOps Lead: Jennifer Martinez (Florence Pharmaceuticals)
+
+================================================================================
+MILESTONE DEFINITIONS
+================================================================================
+CDA = Confidentiality/Disclosure Agreement
+FEASIBILITY = Site Feasibility Questionnaire Completed
+SELECTED = Site Selected for Participation
+CTA_SENT = Clinical Trial Agreement Sent to Site
+CTA_EXEC = CTA Fully Executed (both parties signed)
+IRB_SUB = IRB/EC Submission (initial)
+IRB_APP = IRB/EC Approval Received
+REG_PKG = Regulatory Package Complete (1572, FDF, CV, license, delegation log)
+TRAIN = Protocol-Specific Training Complete (all required staff)
+SIV = Site Initiation Visit Completed
+GREEN_LIGHT = Site Activated / Open to Enrollment
+FPFV = First Patient First Visit
+
+================================================================================
+SITE ACTIVATION DATA
+================================================================================
+Site_ID,Site_Name,Country,Site_Type,PI,CDA_Date,Feasibility_Date,Selected_Date,CTA_Sent,CTA_Executed,CTA_Days,IRB_Submitted,IRB_Approved,IRB_Days,Reg_Pkg_Complete,Training_Complete,SIV_Date,Green_Light,FPFV_Date,FPFV_Days_from_Selection,Status,Patients_Enrolled,Enrollment_Target,Notes
+SITE-2198,Metro Clinical Research Center,US,Academic,Dr. Amanda Chen,2025-06-15,2025-07-01,2025-08-01,2025-08-15,2025-11-10,87,2025-08-20,2025-09-25,36,2025-11-20,2025-12-05,2025-12-12,2025-12-15,2026-01-08,160,Active - Recruiting,8,15,"CTA delayed by institutional legal review (52 days in legal). FPFV achieved 160 days from selection."
+SITE-3041,Central Research Partners,US,Dedicated Research,Dr. Michael Torres,2025-06-15,2025-07-05,2025-08-01,2025-08-10,2025-09-02,23,2025-08-12,2025-09-15,34,2025-09-18,2025-09-28,2025-10-05,2025-10-08,2025-10-22,82,Active - Recruiting,12,15,"Fast activation — pre-negotiated CTA template. Top enrolling site."
+SITE-4521,Community Oncology Network,US,Community,Dr. Karen Patel,2025-06-20,2025-07-10,2025-08-15,2025-08-25,2025-10-15,51,2025-09-01,2025-10-02,31,2025-10-20,2025-11-05,2025-11-12,2025-11-15,2025-12-03,110,Active - Recruiting,6,15,"Moderate timeline. Budget negotiation added 2 weeks to CTA."
+SITE-1847,Regional Cancer Center,US,Community,Dr. David Kim,2025-06-20,2025-07-12,2025-08-15,2025-08-28,2025-10-28,61,2025-09-05,2025-10-08,33,2025-11-02,2025-11-18,2025-11-25,2025-11-28,2026-01-15,153,Active - Recruiting,4,15,"CTA indemnification clause required 3 rounds of negotiation. Training delayed by coordinator turnover."
+SITE-5502,Midwest Academic Medical Center,US,Academic,Dr. Lisa Wang,2025-07-01,2025-07-20,2025-09-01,2025-09-15,2025-12-18,94,2025-09-20,2025-10-28,38,2025-12-22,2026-01-10,2026-01-18,2026-01-20,2026-02-10,162,Active - Recruiting,3,15,"Longest CTA: 94 days. Institutional policy required full budget committee review."
+SITE-6012,Southwest Oncology Associates,US,Dedicated Research,Dr. Robert Garcia,2025-07-01,2025-07-15,2025-09-01,2025-09-10,2025-10-01,21,2025-09-12,2025-10-15,33,2025-10-18,2025-10-28,2025-11-05,2025-11-08,2025-11-20,80,Active - Recruiting,10,15,"Fastest activation in portfolio. Pre-existing sponsor relationship."
+SITE-7203,University Hospital Berlin,DE,Academic,Prof. Hans Müller,2025-07-15,2025-08-01,2025-09-15,2025-10-01,2026-01-15,106,2025-10-10,2025-12-20,71,2026-01-20,2026-02-05,2026-02-12,2026-02-15,,—,Active - Pre-FPFV,0,15,"German ethics committee required site inspection. CTA included EU GDPR data processing addendum. SIV completed 2026-02-12. Awaiting first patient."
+SITE-8330,Hospital Clínic Barcelona,ES,Academic,Dr. Maria Santos,2025-07-15,2025-08-05,2025-09-15,2025-10-05,2026-01-28,115,2025-10-15,2026-01-10,87,2026-02-01,2026-02-18,,,—,In Start-Up,0,15,"Spanish AEMPS approval required in addition to ethics committee (87 days). Training in progress. SIV scheduling pending."
+SITE-9100,Tokyo Medical University Hospital,JP,Academic,Prof. Takashi Yamamoto,2025-08-01,2025-08-20,2025-10-01,2025-10-15,,,2025-10-20,2026-01-25,97,,,,,—,In Start-Up,0,15,"PMDA notification submitted. IRB approval received after 97 days. CTA still in negotiation — institutional legal team reviewing IP indemnification."
+SITE-1055,Melbourne Cancer Centre,AU,Academic,Prof. Sarah Collins,2025-08-01,2025-08-25,2025-10-01,2025-10-20,2026-02-10,113,2025-10-25,2025-12-15,51,2026-02-15,,,,,In Start-Up,0,15,"HREC approval received. CTA executed. Regulatory package in progress — TGA notification filed."
+
+================================================================================
+PORTFOLIO SUMMARY
+================================================================================
+Metric,Value
+Total Sites Selected,10
+Sites Activated (Green Light),6
+Sites In Start-Up,4
+Sites with FPFV Achieved,6
+Total Patients Enrolled,43 / 450 (9.6%)
+Median Activation Time (Selection → Green Light),110 days
+Mean CTA Duration,67 days (range: 21-115)
+Mean IRB Duration,51 days (range: 31-97)
+Fastest Activation,80 days (SITE-6012, Dedicated Research)
+Slowest Activation (completed),162 days (SITE-5502, Academic)
+Activation Target vs Actual,Target: 90 days | Actual Median: 110 days | +22% over target
+
+================================================================================
+RISK FLAGS
+================================================================================
+Flag_ID,Site_ID,Risk_Type,Description,Mitigation
+RF-001,SITE-9100,CTA Delay,"CTA still in negotiation after 133 days. JP institutional legal team reviewing IP indemnification clause.","Escalate to Florence Head of Legal for direct call with site legal office. Deadline: 2026-03-15."
+RF-002,SITE-8330,Training Delay,"SIV not yet scheduled. Training completion expected 2026-02-18, but SIV requires CRA travel to Barcelona.","Schedule SIV for 2026-02-25 or 2026-03-04. CRA confirmed available both weeks."
+RF-003,SITE-1847,Enrollment Lag,"4 patients enrolled in 41 days (rate: 0.7/month vs 1.5/month target). Coordinator turnover in December 2025.","Conduct enrollment review call with PI. Consider backup coordinator assignment."
+RF-004,SITE-7203,Pre-FPFV Risk,"Activated 10 days ago, no screening activity yet. PI competing commitments with Charité trial.","CRA to conduct enrollment readiness check at next monitoring visit (2026-03-05)."

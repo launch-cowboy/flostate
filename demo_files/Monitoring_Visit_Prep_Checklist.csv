@@ -1,0 +1,69 @@
+MONITORING VISIT PREPARATION CHECKLIST
+TMF Zone Reference: Zone 22 (Site Monitoring Visits)
+Regulatory Basis: ICH E6(R3) §5.18 (Monitoring), 21 CFR 312.56
+Based on: Florence eBinder (eISF) Zone Structure + ISF-vs-TMF Mapping (Table 1708)
+Protocol: CNS-205-2024 | Phase II | Alzheimer's Disease
+Site: Metro Clinical Research Center (SITE-2198)
+Visit Type: Routine Monitoring Visit (RMV #3)
+Visit Date: 2026-02-25
+CRA: Sarah Miller (Florence Pharmaceuticals)
+Coordinator: Maria Rodriguez
+Overall Readiness Score: 92%
+
+================================================================================
+DOCUMENT STATUS BY TMF ZONE
+================================================================================
+TMF_Zone,Artifact_Number,Document_Name,eISF_Status,eISF_Version,eTMF_Status,eTMF_Version,Last_Updated,Expiration_Date,Action_Required,Priority,CRA_Notes
+2.1,02.01,"Clinical Trial Agreement (CTA)",Current,Executed 2024-03-15,Current,Filed,2024-03-20,N/A,None,—,"Fully executed. Budget addendum #1 filed."
+2.2,02.02,"Confidentiality Agreement (CDA)",Current,Signed 2024-01-10,Current,Filed,2024-01-15,N/A,None,—,"Standard 5-year NDA."
+2.5,02.05,"FDA Form 1572",Action Required,v2.0 (2024-02-01),Current,v2.0,2024-02-05,N/A,"Update needed — Dr. Emily Lee added as Sub-I. New 1572 required.",P2-Urgent,"Draft prepared by AI. Needs PI review + signature."
+3.1,03.01,"PI Curriculum Vitae",Current,2024-08-15,Current,Filed,2024-08-20,2026-08-15 (2yr),"Within validity. Recommend update at next annual review.",P4-Routine,—
+3.2,03.02,"Sub-Investigator CVs",Action Required,Mixed,Current,Filed,Varies,Varies,"Dr. Emily Lee CV filed 2024-07-20. Dr. Patel CV filed 2023-11-15 — approaching 2yr limit.",P3-Important,"Flag Dr. Patel CV for update by 2025-11-15."
+3.3,03.03,"Medical License — PI",Action Required,TX M12345,Current,Filed,2025-09-30,2025-09-30 (EXPIRED),"PI medical license expired 2025-09-30. Verify renewal status IMMEDIATELY.",P1-Critical,"Enrollment hold may be required if not renewed."
+3.4,03.04,"GCP Certificate — PI",Current,CITI 2024-03-10,Current,Filed,2024-03-15,2027-01-10,None,—,—
+3.5,03.05,"GCP Certificate — Sub-I (Dr. Patel)",OVERDUE,CITI 2023-11-15,Outdated,Filed,2023-11-20,2025-09-01 (EXPIRED),"GCP expired. Cannot perform delegated tasks until recertified.",P1-Critical,"Remove from active delegation. Notify PI."
+3.6,03.06,"GCP Certificate — Pharmacist (Dr. Williams)",OVERDUE,CITI 2023-04-01,Outdated,Filed,2023-04-05,2025-04-01 (EXPIRED),"GCP expired 327 days ago. IMMEDIATE action required.",P1-Critical,"Cannot dispense IP. Pharmacy backup needed."
+4.1,04.01,"IRB Approval Letter (Initial)",Current,WCG IRB 2024-02-28,Current,Filed,2024-03-05,2025-02-28,"Continuing review due. Package submitted 2026-02-28.",P3-Important,"AI-drafted continuing review package ready."
+4.2,04.02,"IRB Approval — Amendment 1",Current,WCG IRB 2024-06-10,Current,Filed,2024-06-15,N/A,None,—,—
+4.3,04.03,"IRB Approval — Amendment 2",Current,WCG IRB 2024-11-20,Current,Filed,2024-11-25,N/A,None,—,—
+5.1,05.01,"Financial Disclosure Forms (FDF)",Current,"4 FDFs signed",Current,Filed,2024-02-15,N/A,None,—,"All 4 investigators disclosed. No significant financial interests."
+5.2,05.02,"Subject Compensation Records",Current,Site records,N/A,N/A,2026-02-20,N/A,None,—,"$75/visit. 5 patients × avg 8 visits = $3,000 disbursed."
+6.1,06.01,"Investigator's Brochure (IB)",Current,v5.0 (2025-07-15),Current,v5.0,2025-07-20,N/A,None,—,"IB v5.0 receipt acknowledged. Staff re-trained 2025-08-01."
+11.1,11.01,"Protocol",Current,v1.4 (2024-09-15),Current,v1.4,2024-09-20,N/A,None,—,"Current version. No pending amendments."
+11.4,11.04,"Protocol Signature Page",Current,Signed 2024-02-15,Current,Filed,2024-02-20,N/A,None,—,—
+12.2,12.02,"Delegation of Responsibilities Log",Action Required,v4.1 (2025-08-15),Outdated,v3.0,2025-01-20,N/A,"Dr. Wong signature PENDING for DERM-110. Updated DOR not yet transmitted to eTMF.",P2-Urgent,"Current eISF version has 9 staff. eTMF has outdated v3.0 with 7 staff."
+13.1,13.01,"Lab Manual",Current,LabCorp v2.0,Current,Filed,2024-03-01,N/A,None,—,—
+13.2,13.02,"Lab Normal Reference Ranges",Current,Quest 2024 ranges,Current,Filed,2024-04-01,2025-04-01,"Annual update needed. Quest 2025 ranges expected March 2026.",P4-Routine,—
+13.3,13.03,"Lab Certifications (CLIA/CAP)",Current,CLIA #45D1234567,Current,Filed,2024-05-01,2026-05-01,None,—,—
+14.1,14.01,"IP Accountability Log",Current,Updated 2026-02-20,Current,Filed,2026-02-20,N/A,None,—,"12 vials received. 8 dispensed. 4 in storage. Reconciled with IVRS."
+14.4,14.04,"Temperature Excursion Log",Current,No excursions,Current,Filed,2026-01-15,N/A,None,—,"Continuous monitoring via BioT. No excursions to date."
+15.1,15.01,"Enrollment Log",Current,5 subjects,Current,Filed,2026-02-15,N/A,None,—,"5 subjects enrolled. Log current."
+15.2,15.02,"Visit Log / Subject Tracker",Current,Updated 2026-02-20,N/A,N/A,2026-02-20,N/A,None,—,—
+15.3,15.03,"Screening Log",Current,11 screened,Current,Filed,2026-02-10,N/A,None,—,"11 screened, 5 enrolled, 6 screen failures."
+16.2,16.02,"Sample CRF / EDC Screenshots",Current,Medidata Rave,Current,Filed,2024-03-01,N/A,None,—,—
+17.1,17.01,"Informed Consent Form (ICF)",Current,v3.0 (2025-09-01),Current,v3.0,2025-09-05,N/A,None,—,"All 5 subjects consented on v3.0. Version tracker current."
+19.2,19.02,"Serious Adverse Event Reports",Current,0 SAEs,Current,Filed,N/A,N/A,None,—,"No SAEs reported for CNS-205 at this site."
+20.4,20.04,"Subject ID Code List",Current,Locked,N/A,N/A,2026-02-15,N/A,None,—,"Code break envelopes sealed and locked (Room 410)."
+22.5,22.05,"Previous Monitoring Visit Reports",Current,RMV #1 + RMV #2,Current,Filed,2025-12-15,N/A,None,—,"Both prior visit reports finalized. All action items closed."
+22.8,22.08,"Monitoring Visit Log",Current,3 visits documented,Current,Filed,2026-02-20,N/A,None,—,"SIV + RMV #1 + RMV #2 documented."
+
+================================================================================
+READINESS SUMMARY
+================================================================================
+Category,Total_Documents,Current,Action_Required,Overdue/Missing,Readiness_Pct
+Zone 2 (Investigator Agreement),3,2,1,0,67%
+Zone 3 (Site Qualifications),6,3,1,2,50%
+Zone 4 (IRB/EC),3,3,0,0,100%
+Zone 5 (Financial),2,2,0,0,100%
+Zone 6 (IB),1,1,0,0,100%
+Zone 11 (Protocol),2,2,0,0,100%
+Zone 12 (Delegation),1,0,1,0,0%
+Zone 13 (Lab),3,3,0,0,100%
+Zone 14 (IP),2,2,0,0,100%
+Zone 15 (Study Subjects),3,3,0,0,100%
+Zone 16 (CRF),1,1,0,0,100%
+Zone 17 (ICF),1,1,0,0,100%
+Zone 19 (Safety),1,1,0,0,100%
+Zone 20 (Confidential),1,1,0,0,100%
+Zone 22 (Monitoring),2,2,0,0,100%
+OVERALL,32,27,3,2,92%

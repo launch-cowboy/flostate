@@ -1,0 +1,96 @@
+CURRICULUM VITAE
+Amanda Chen, MD, PhD, FACP
+
+================================================================================
+PERSONAL INFORMATION
+================================================================================
+Name:           Amanda Chen, MD, PhD
+Title:          Medical Director & Principal Investigator
+Institution:    Metro Clinical Research Center
+Address:        1200 Health Science Drive, Suite 400, Houston, TX 77030
+Email:          achen@metroclinical.org
+Phone:          (713) 555-0142
+NPI:            1234567890
+Medical License: Texas #M12345 (Active, Expiration: 2025-09-30)
+DEA License:    BC1234567 (Active, Expiration: 2026-03-31)
+
+================================================================================
+EDUCATION
+================================================================================
+1999    MD, PhD (Immunology), Harvard Medical School, Boston, MA
+2002    Residency, Internal Medicine, Johns Hopkins Hospital, Baltimore, MD
+2005    Fellowship, Hematology/Oncology, MD Anderson Cancer Center, Houston, TX
+
+================================================================================
+BOARD CERTIFICATIONS
+================================================================================
+American Board of Internal Medicine — Internal Medicine (2002, recertified 2022)
+American Board of Internal Medicine — Medical Oncology (2005, recertified 2025)
+
+================================================================================
+PROFESSIONAL EXPERIENCE
+================================================================================
+2015 – Present  Medical Director & Principal Investigator
+                Metro Clinical Research Center, Houston, TX
+                Oversight of 8-12 concurrent Phase I-III clinical trials.
+                Annual enrollment: 120-180 patients across therapeutic areas.
+
+2005 – 2015     Attending Physician, Thoracic Oncology Division
+                Texas Medical Center, Houston, TX
+                Clinical practice: 60%, Clinical research: 40%.
+
+================================================================================
+CLINICAL INVESTIGATOR EXPERIENCE (PI on 47 trials)
+================================================================================
+Protocol         Phase   Sponsor               Therapeutic Area      Year
+ONK-301-2025     III     Florence Pharma        NSCLC (IO combo)      2025-present
+DERM-110-2025    III     Florence Pharma        Plaque Psoriasis      2025-present
+CNS-205-2024     II      Florence Pharma        Alzheimer's Disease   2024-present
+LUNG-812         III     Merck                  NSCLC (2nd line)      2023-2024
+IMM-445          II      BMS                    Melanoma (adjuvant)   2022-2024
+REACH-007        III     Pfizer                 RCC (1st line)        2021-2023
+KEYNOTE-ABC      III     Merck                  NSCLC (1st line)      2020-2022
+ARROW-201        II      Genentech              NSCLC (biomarker)     2019-2021
+IO-COMBO-101     I/II    AstraZeneca            Solid tumors          2018-2020
+NSCLC-PREV-05    III     Novartis               NSCLC (adjuvant)      2017-2019
+... and 37 additional Phase I-III trials (2005-2017)
+
+Extensive experience with: RECIST 1.1, iRECIST, irRC response criteria, CTCAE v5.0
+adverse event grading, immune-related AE management, PK/PD sampling, tumor
+biopsies, companion diagnostic coordination, DSMB participation.
+
+================================================================================
+CERTIFICATIONS & TRAINING
+================================================================================
+GCP / Human Subjects Protection    CITI Program    Certified 2024    Exp. 2027-01
+IATA Dangerous Goods Shipping      IATA            Certified 2024    Exp. 2026-06
+RECIST 1.1 Scoring                 Parexel         Certified 2023    Current
+CTCAE v5.0                         NCI             Certified 2023    Current
+CDR Administration (Alzheimer's)   ADCS            Certified 2024    Current
+
+================================================================================
+SELECT PUBLICATIONS (10 of 32 total)
+================================================================================
+1. Chen A, et al. (2024). "Phase II results of novel anti-PD-L1/VEGF bispecific
+   antibody in platinum-refractory NSCLC." J Thorac Oncol. 19(4):567-578.
+2. Chen A, et al. (2023). "Real-world outcomes of checkpoint inhibitor
+   combinations in advanced NSCLC: a multicenter retrospective analysis."
+   Ann Oncol. 34(2):234-245.
+3. Chen A, et al. (2022). "Efficacy of novel immune checkpoint inhibitors in
+   refractory NSCLC: a Phase Ib dose-escalation study." J Thorac Oncol.
+   17(8):1123-1135.
+4. Chen A, Smith R, et al. (2021). "Biomarker-driven patient selection for
+   immunotherapy in advanced lung adenocarcinoma." N Engl J Med.
+   385(12):1089-1100.
+5. Chen A, et al. (2020). "Site activation timelines and enrollment predictors
+   in multicenter oncology trials." Clin Trials. 17(5):501-512.
+6. Chen A, Williams J, et al. (2019). "Biomarker-driven therapies for advanced
+   stage lung adenocarcinomas." N Engl J Med. 381(21):2009-2019.
+7. Chen A, et al. (2018). "Managing immune-related adverse events in clinical
+   practice: a practical guide." Oncologist. 23(9):1028-1040.
+8. Chen A, et al. (2017). "Companion diagnostic implementation challenges at
+   community oncology sites." JCO Clin Cancer Inform. 1:1-9.
+9. Chen A, Patel S, et al. (2016). "Coordinator workload and trial quality
+   metrics: a site-level analysis." Clin Trials. 13(4):412-420.
+10. Chen A, et al. (2015). "Phase I first-in-human study of ONK-101, a novel
+    PD-1 inhibitor, in advanced solid tumors." J Clin Oncol. 33(15_suppl):3010.

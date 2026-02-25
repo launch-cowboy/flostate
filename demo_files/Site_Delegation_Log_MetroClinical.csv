@@ -1,0 +1,40 @@
+Site Name,Metro Clinical Research Center
+Principal Investigator,Dr. Amanda Chen
+Address,"1200 Health Science Dr, Suite 400, Houston, TX 77030"
+IRB of Record,WCG IRB (FWA00000001)
+Date Created,2025-08-15
+Version,5.1
+
+Name,Role,Study Assignments,Delegated Tasks,Protocol Training (ONK-301),Protocol Training (DERM-110),Protocol Training (CNS-205),GCP Certification Date,GCP Expiration,Medical License,License Expiration,Signature Date,Initials,PI Countersignature
+Dr. Amanda Chen,Principal Investigator,"ONK-301, DERM-110, CNS-205","A, B, C, D, E, F, G",2025-01-15,2025-05-22,2024-02-01,2024-03-10,2027-01-10,TX M12345,2025-09-30,2025-08-15,AC,N/A
+Dr. Sunita Patel,Sub-Investigator,"ONK-301, CNS-205","A, C, D, E",2025-01-15,N/A,2024-02-01,2023-11-15,2025-09-01,TX M67890,2026-06-30,2025-08-15,SP,Signed
+Dr. Alex Wong,Sub-Investigator,"DERM-110","C, D",N/A,2025-05-22,N/A,2024-06-20,2026-06-20,TX M11223,2026-12-31,,AW,
+Maria Rodriguez,Lead CRC,"ONK-301, DERM-110, CNS-205, LUNG-812","F, G, H, I, J",2025-01-20,2025-05-25,2024-02-05,2024-01-10,2025-11-20,N/A,N/A,2025-08-15,MR,Signed
+James O'Connor,CRC,"ONK-301, DERM-110","F, H, I",2025-01-20,2025-05-25,N/A,2024-08-15,2026-02-15,N/A,N/A,2025-08-15,JO,Signed
+Sarah Kim,CRC,"CNS-205, LUNG-812","F, H, I, J",N/A,N/A,2024-02-05,2024-09-01,2026-09-01,N/A,N/A,2025-08-15,SK,Signed
+Dr. Robert Williams,Investigational Pharmacist,"ONK-301, CNS-205","K, L",2025-01-18,N/A,2024-02-03,2023-04-01,2025-04-01,PharmD TX P44556,2025-12-31,2025-08-15,RW,Signed
+Lisa Thompson,Research Nurse,"ONK-301, CNS-205","H, I, M",2025-01-20,N/A,2024-02-05,2024-05-10,2026-05-10,RN TX N78901,2026-08-31,2025-08-15,LT,Signed
+Dr. Emily Lee,Sub-Investigator,"ONK-301","A, C, D, E",2025-01-15,N/A,N/A,2024-07-20,2026-07-20,TX M99887,2027-03-31,2025-08-15,EL,Signed
+
+LEGEND:
+A: Obtain Informed Consent
+B: Determine Eligibility
+C: Physical Examination
+D: Assess Adverse Events
+E: Prescribe / Administer Study Drug
+F: Case Report Form / EDC Entry
+G: Regulatory Submissions & Document Management
+H: Vital Signs Collection
+I: Specimen Collection & Processing
+J: Neuropsychological Assessment Administration (CNS-205 only)
+K: IP Receipt, Storage, Preparation & Dispensing
+L: IP Accountability & Destruction
+M: IV Infusion Administration & Monitoring
+
+NOTES:
+- Dr. Alex Wong: Signature and PI countersignature PENDING — cannot perform delegated tasks until signed.
+- Dr. Robert Williams: GCP certification expires 2025-04-01 — OVERDUE. Must recertify before further participation.
+- Dr. Sunita Patel: GCP expires 2025-09-01 — approaching expiration (within 90 days).
+- Dr. Amanda Chen: Medical license expires 2025-09-30 — renewal in progress.
+- All staff must complete protocol-specific training BEFORE performing delegated tasks for that study.
+- This log must be updated within 5 business days of any change in delegation, staffing, or credential status.

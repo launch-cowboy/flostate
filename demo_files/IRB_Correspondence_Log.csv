@@ -1,0 +1,38 @@
+IRB/ETHICS COMMITTEE CORRESPONDENCE LOG
+TMF Zone Reference: Zone 9 (IRB/EC Approvals and Correspondence)
+Regulatory Basis: ICH E6(R3) §3.3, 21 CFR 312.66, 21 CFR 56
+Site: Metro Clinical Research Center (SITE-2198)
+IRB of Record: WCG IRB (FWA00000001)
+Principal Investigator: Dr. Amanda Chen, MD, PhD
+Log Maintained by: Maria Rodriguez, Lead CRC
+Last Updated: 2026-02-25
+
+================================================================================
+CORRESPONDENCE LOG
+================================================================================
+Entry_ID,Protocol,Submission_Type,Date_Submitted,IRB_Action,Action_Date,Approval_Expiration,Protocol_Version,Amendment_Number,Documents_Submitted,IRB_Reference_Number,Notes
+IRB-001,ONK-301-2025,Initial Review,2025-08-20,Approved,2025-09-22,2026-09-22,v1.0,N/A,"Protocol v1.0, IB v4.0, ICF v1.0, FDA 1572, FDF (×3), PI CV, Sub-I CVs, Lab Certs, Recruitment Materials",WCG-2025-08-4521,"Full board review. Approved as submitted. No modifications requested."
+IRB-002,ONK-301-2025,Amendment 1,2025-11-05,Approved,2025-11-18,2026-09-22,v1.1,AMD-001,"Protocol v1.1 (addition of C1D8 safety labs), Updated ICF v2.0 (new safety language per DSMB recommendation)",WCG-2025-11-0892,"Expedited review. Safety-related amendment. 13-day turnaround."
+IRB-003,ONK-301-2025,Amendment 2,2026-01-10,Approved,2026-01-28,2026-09-22,v1.2,AMD-002,"Protocol v1.2 (revised PK sampling schedule — sparse design), Updated ICF v3.0 (compensation change $50→$75/visit)",WCG-2026-01-1205,"Expedited review. ICF compensation update required re-consent of existing subjects."
+IRB-004,ONK-301-2025,Protocol Deviation Report,2026-02-05,Acknowledged,2026-02-08,N/A,v1.2,N/A,"Deviation report: Subject 008 missed C3D1 visit window (3 days outside ±3 day window due to weather-related site closure)",WCG-2026-02-0415,"Non-significant deviation. No corrective action required per IRB. Filed in regulatory binder."
+IRB-005,ONK-301-2025,SAE Report,2026-02-12,Acknowledged,2026-02-14,N/A,v1.2,N/A,"SAE report: Subject 003 — Grade 3 immune-mediated hepatitis. Hospitalized 2026-02-10. Drug held.",WCG-2026-02-0620,"Prompt safety report. IRB acknowledged. No additional action required. DSMB notified separately."
+IRB-006,DERM-110-2025,Initial Review,2025-05-10,Approved,2025-05-28,2026-05-28,v1.0,N/A,"Protocol v1.0, IB v2.0, ICF v1.0, FDA 1572, FDF (×2), PI CV, Sub-I CVs, Lab Certs, Recruitment Materials, PASI Rater Training Documentation",WCG-2025-05-3102,"Full board review. Stipulation: add pruritus NRS instructions to ICF. Resolved same day."
+IRB-007,DERM-110-2025,Amendment 1,2025-08-15,Approved,2025-08-28,2026-05-28,v1.1,AMD-001,"Protocol v1.1 (extended follow-up from Week 16 to Week 20), Updated ICF v2.0 (additional visit), Updated Photography Manual v1.1",WCG-2025-08-4830,"Expedited review. Minor amendment."
+IRB-008,DERM-110-2025,Continuing Review,2026-04-15,PENDING,—,2026-05-28,v1.1,N/A,"Annual continuing review package: enrollment update (7/12), AE summary, deviation log, updated consent tracking, PI annual attestation",—,"DUE DATE: 2026-05-28. Package preparation in progress. AI-drafted summary available."
+IRB-009,CNS-205-2024,Initial Review,2024-01-15,Approved,2024-02-12,2025-02-12,v1.0,N/A,"Protocol v1.0, IB v3.0, ICF v1.0, FDA 1572, FDF (×4), PI CV, Sub-I CVs, CDR Rater Certification, Lab Certs, Recruitment Materials, Study Partner ICF",WCG-2024-01-0845,"Full board review. Required study partner consent form as separate document."
+IRB-010,CNS-205-2024,Amendment 1,2024-06-01,Approved,2024-06-18,2025-02-12,v1.2,AMD-001,"Protocol v1.2 (ARIA monitoring MRI timing change: 24hr → 72hr post-infusion for infusions 5+), Updated ICF v2.0",WCG-2024-06-2201,"Safety-related amendment based on DSMB interim analysis. Expedited review."
+IRB-011,CNS-205-2024,Amendment 2,2024-11-01,Approved,2024-11-20,2025-02-12,v1.4,AMD-002,"Protocol v1.4 (addition of optional CSF collection at Month 12, updated inclusion criterion for MMSE range), Updated ICF v3.0",WCG-2024-11-3550,"Expedited review. Addition of optional biomarker collection required ICF update."
+IRB-012,CNS-205-2024,Continuing Review,2025-01-15,Approved,2025-02-05,2026-02-05,v1.4,N/A,"Annual continuing review: enrollment update (3/8 at time of review), AE summary (0 SAEs), deviation log (1 minor: missed MRI window), PI attestation",WCG-2025-01-0218,"Approved for continuation. No modifications."
+IRB-013,CNS-205-2024,Continuing Review,2026-02-01,PENDING,—,2026-02-28,v1.4,N/A,"Annual continuing review package. Due 2026-02-28. Current enrollment: 5/8. 0 SAEs. 1 deviation (Subject 104 missed MRI window). PI attestation included.",—,"AI-drafted package prepared. Ready for PI signature and submission."
+IRB-014,LUNG-812,Initial Review,2023-03-10,Approved,2023-03-28,2024-03-28,v1.0,N/A,"Initial submission per Merck template. Full board.",WCG-2023-03-1580,"Approved."
+IRB-015,LUNG-812,Continuing Review,2024-03-05,Approved,2024-03-20,2025-03-20,v1.0,N/A,"Year 1 continuing review. 12/18 enrolled. 1 SAE (resolved). 0 deviations.",WCG-2024-03-0905,"Approved for continuation."
+IRB-016,LUNG-812,Continuing Review,2025-03-01,Approved,2025-03-15,2026-03-15,v1.0,N/A,"Year 2 continuing review. 16/18 enrolled. 2 total SAEs (1 new, both resolved). 0 deviations.",WCG-2025-03-0612,"Approved for continuation. Study approaching enrollment completion."
+
+================================================================================
+UPCOMING IRB ACTIONS REQUIRED
+================================================================================
+Priority,Protocol,Action,Due_Date,Status,Notes
+P1-Critical,CNS-205-2024,Continuing Review Submission,2026-02-28,"AI-drafted package ready — needs PI signature","Approval expires 2026-02-28. Must submit ≥30 days before expiration."
+P3-Important,DERM-110-2025,Continuing Review Preparation,2026-05-28,"Package preparation in progress","Begin preparation by 2026-04-15. Enrollment summary needed."
+P4-Routine,LUNG-812,Study Close-Out Notification,TBD,"Not yet due","Enrollment nearly complete (16/18). Close-out notification after LPLV."
+P4-Routine,ONK-301-2025,Amendment 3 (if needed),TBD,"Not yet needed","DSMB review Q2 2026 may trigger protocol amendment."

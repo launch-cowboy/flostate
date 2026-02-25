@@ -1,0 +1,188 @@
+================================================================================
+INVESTIGATOR'S BROCHURE — SUMMARY DOCUMENT
+TMF Zone Reference: Zone 6 (Investigator's Brochure and Product Insert)
+Regulatory Basis: ICH E6(R3) §7, 21 CFR 312.55
+================================================================================
+
+CONFIDENTIAL — FOR AUTHORIZED INVESTIGATORS ONLY
+
+Drug Name:          ONK-301 (florencizumab)
+INN:                Florencizumab
+Drug Class:         Humanized IgG4 monoclonal antibody, anti-PD-L1/VEGF bispecific
+Molecular Weight:   ~148 kDa
+Route:              Intravenous infusion
+Formulation:        20 mg/mL solution for infusion, 10 mL single-use vial (200 mg/vial)
+Storage:            2-8°C (36-46°F), protect from light, do not freeze
+Shelf Life:         24 months from date of manufacture
+After Dilution:     Stable 24 hours at 2-8°C or 8 hours at room temperature (15-25°C)
+
+IB Version:         5.0
+IB Date:            2025-07-15
+Previous Versions:  4.0 (2024-12-01), 3.0 (2024-06-15), 2.0 (2023-12-01), 1.0 (2023-06-01)
+
+================================================================================
+1. MECHANISM OF ACTION
+================================================================================
+Florencizumab (ONK-301) is a bispecific antibody targeting programmed death-ligand 1
+(PD-L1) and vascular endothelial growth factor A (VEGF-A). The anti-PD-L1 arm restores
+T-cell-mediated anti-tumor immunity by blocking PD-1/PD-L1 interaction. The anti-VEGF-A
+arm inhibits tumor angiogenesis by neutralizing VEGF-A signaling through VEGFR-2.
+
+Dual blockade is hypothesized to enhance anti-tumor efficacy through:
+- Normalization of tumor vasculature → improved T-cell infiltration
+- Reduction of VEGF-mediated immunosuppression in the tumor microenvironment
+- Synergistic inhibition of tumor growth via complementary pathways
+
+================================================================================
+2. PRECLINICAL TOXICOLOGY SUMMARY
+================================================================================
+Study Type              Species     Findings                                Safety Margin
+4-week repeat dose      Cynomolgus  No dose-limiting toxicity at 100 mg/kg  10× clinical dose
+26-week chronic         Cynomolgus  Immune-mediated hepatitis (Grade 1)     5× clinical dose
+                                    at ≥50 mg/kg. Reversible on cessation.
+Reproductive toxicity   Cynomolgus  Embryo-fetal lethality at ≥30 mg/kg.   3× clinical dose
+                                    Contraception required in clinical use.
+Genotoxicity            In vitro    Negative (Ames, micronucleus, comet)    N/A
+Carcinogenicity         Not done    Not required per ICH S9 (oncology)      N/A
+
+Key Preclinical Signals to Monitor Clinically:
+- Hepatotoxicity (immune-mediated): Monitor ALT/AST at each visit
+- Reproductive harm: Pregnancy test required; contraception mandatory
+- Infusion reactions: Anti-drug antibody (ADA) formation observed in 12% of cynomolgus
+
+================================================================================
+3. CLINICAL PHARMACOLOGY
+================================================================================
+Parameter                               Value               Notes
+Half-life (terminal)                    18.5 days           Typical for IgG4
+Cmax (10 mg/kg IV)                     285 µg/mL           Steady-state by Cycle 3
+Tmax                                   End of infusion     IV administration
+Volume of distribution (Vss)           5.8 L               Largely intravascular
+Clearance                              0.22 L/day          Linear PK at ≥3 mg/kg
+Bioavailability                        100%                IV route
+Protein binding                        N/A                 mAb, no traditional PB
+Drug-Drug Interactions                 None identified     No CYP450 metabolism
+ADA Incidence (Phase I/II)             8.2%                Neutralizing: 1.8%
+ADA Impact on PK                       No significant      Exposure maintained
+                                       impact observed
+
+================================================================================
+4. PHASE I DOSE ESCALATION (Study ONK-101)
+================================================================================
+Design:     3+3 dose escalation, 42 patients, 6 dose levels (0.3-20 mg/kg Q3W)
+Population: Advanced solid tumors (NSCLC, melanoma, RCC, TNBC, bladder)
+Results:
+  DLT:      1 DLT at 20 mg/kg (Grade 3 immune-mediated hepatitis)
+  MTD:      Not reached. Recommended Phase II Dose (RP2D): 10 mg/kg Q3W
+  ORR:      19% (8/42) across all dose levels; 32% (6/19) at RP2D
+  DCR:      62% at RP2D
+  Median PFS: 4.8 months (95% CI: 3.2-7.1)
+
+================================================================================
+5. PHASE II EFFICACY (Study ONK-201)
+================================================================================
+Design:     Single-arm, 128 patients with PD-L1+ (TPS ≥ 1%) advanced NSCLC
+Population: 2nd line after platinum-based chemotherapy
+Results:
+  ORR:      38.3% (49/128), 95% CI: 29.8%-47.3%
+  CR:       4.7% (6/128)
+  DCR:      71.1% (91/128)
+  Median PFS: 7.2 months (95% CI: 5.8-9.1)
+  Median OS: 14.8 months (95% CI: 11.5-18.2)
+  Duration of Response: 11.3 months (95% CI: 8.2-NR)
+
+Subgroup Analysis (PD-L1 ≥ 50%):
+  ORR:      52.4% (22/42)
+  Median PFS: 11.8 months
+
+================================================================================
+6. SAFETY DATA — POOLED ANALYSIS (Phase I + Phase II, N = 170)
+================================================================================
+
+6a. Treatment-Related Adverse Events by System Organ Class
+SOC                              All Grades     Grade 3-4     Grade 5
+General (fatigue, asthenia)      68 (40.0%)     8 (4.7%)      0
+Gastrointestinal                 52 (30.6%)     6 (3.5%)      0
+Skin/Subcutaneous                44 (25.9%)     3 (1.8%)      0
+Hepatobiliary                    28 (16.5%)     12 (7.1%)     0
+Endocrine (thyroid)              24 (14.1%)     2 (1.2%)      0
+Respiratory                      18 (10.6%)     8 (4.7%)      1 (0.6%)
+Infections                       15 (8.8%)      4 (2.4%)      0
+Cardiac (arrhythmia)             8 (4.7%)       2 (1.2%)      0
+Vascular (hypertension)          22 (12.9%)     5 (2.9%)      0
+Renal                            6 (3.5%)       1 (0.6%)      0
+
+6b. Immune-Related Adverse Events (irAEs)
+irAE Type                        All Grades     Grade 3-4     Median Onset (days)
+Immune-mediated hepatitis        28 (16.5%)     12 (7.1%)     42 (range: 14-120)
+Hypothyroidism                   22 (12.9%)     1 (0.6%)      63 (range: 28-150)
+Pneumonitis                      10 (5.9%)      5 (2.9%)      85 (range: 30-210)
+Colitis                          8 (4.7%)       3 (1.8%)      35 (range: 14-90)
+Dermatitis (rash)                15 (8.8%)      1 (0.6%)      21 (range: 7-60)
+Myocarditis                      2 (1.2%)       2 (1.2%)      28 (range: 21-35)
+Nephritis                        3 (1.8%)       1 (0.6%)      56 (range: 28-84)
+Adrenal insufficiency            4 (2.4%)       1 (0.6%)      90 (range: 45-180)
+
+6c. Serious Adverse Events (SAEs)
+Total SAEs:                     34 (20.0%) of 170 patients
+Treatment-Related SAEs:         22 (12.9%)
+SAEs Leading to Discontinuation: 14 (8.2%)
+Fatal SAE (treatment-related):   1 (0.6%) — Grade 5 pneumonitis
+
+6d. Infusion Reactions
+All Grades:                     12 (7.1%)
+Grade 3-4:                      2 (1.2%)
+Management:                     Premedication with acetaminophen + diphenhydramine
+                                recommended for subsequent infusions after Grade 1-2 IRR.
+                                Grade 3-4: Permanently discontinue ONK-301.
+
+================================================================================
+7. DRUG INTERACTIONS AND CONTRAINDICATIONS
+================================================================================
+Known Interactions:
+- Systemic corticosteroids > 10 mg/day prednisone: May reduce efficacy of checkpoint
+  inhibitor. Taper to ≤ 10 mg/day before initiating ONK-301.
+- Live vaccines: Contraindicated during treatment and for 6 months after last dose.
+- Other immunosuppressants: Avoid concurrent use (may blunt anti-tumor immune response).
+- Anti-VEGF agents: Do not combine with other VEGF inhibitors (risk of additive toxicity).
+
+Contraindications:
+- Active autoimmune disease requiring systemic immunosuppressive treatment
+- Prior organ transplant (risk of graft rejection)
+- Active interstitial lung disease or history of Grade 3+ pneumonitis
+- Known hypersensitivity to florencizumab or any excipient
+- Pregnancy or breastfeeding
+
+================================================================================
+8. STORAGE AND HANDLING
+================================================================================
+Condition                    Requirement
+Shipping                     2-8°C, insulated container with temperature monitor
+Receipt                      Inspect for damage, verify temperature excursion indicator
+Storage                      Refrigerator (2-8°C), upright, protect from light
+Do NOT Freeze                Discard if frozen
+Preparation                  Dilute in 250 mL 0.9% NaCl. Use 0.22 µm in-line filter.
+Infusion Time                60 minutes (± 10 min). Do NOT bolus.
+Stability After Dilution     24 hours at 2-8°C; 8 hours at room temp (15-25°C)
+Accountability               Log receipt, dispensing, return, and destruction per 21 CFR 312.62
+Destruction                  Witnessed destruction with documentation. Return to sponsor or
+                             destroy per site SOP with sponsor approval.
+
+================================================================================
+9. VERSION HISTORY
+================================================================================
+Version  Date          Key Changes
+1.0      2023-06-01    Initial IB based on preclinical data
+2.0      2023-12-01    Added Phase I (ONK-101) safety and PK data
+3.0      2024-06-15    Added Phase II (ONK-201) interim efficacy data
+4.0      2024-12-01    Updated Phase II final analysis. Added cardiac safety data.
+5.0      2025-07-15    Added fatal pneumonitis case. Updated irAE management
+                       guidelines. Added myocarditis signal (2 cases). Updated
+                       infusion reaction premedication guidance.
+
+================================================================================
+CONFIDENTIALITY NOTICE
+This document contains confidential information belonging to Florence Pharmaceuticals.
+Distribution is restricted to investigators, sub-investigators, and authorized site
+personnel listed on the FDA Form 1572 and Delegation of Responsibilities Log.
+================================================================================

@@ -1,0 +1,116 @@
+SITE FEASIBILITY QUESTIONNAIRE
+TMF Zone Reference: Zone 3 (Site Contact Details and Qualifications), Zone 5 (Financial Documentation)
+Regulatory Basis: ICH E6(R3) §4.1 (Investigator Qualifications and Agreements), 21 CFR 312.53
+Completed by: Maria Rodriguez, Lead CRC, Metro Clinical Research Center
+Date Completed: 2025-12-15
+Sponsor: Florence Pharmaceuticals
+Protocol(s) Under Evaluation: ONK-301-2025, DERM-110-2025, CNS-205-2024
+
+================================================================================
+SECTION A: SITE IDENTIFICATION
+================================================================================
+Site_Field,Value
+Site Name,Metro Clinical Research Center
+Site Number (Sponsor-assigned),SITE-2198-US
+Address,"1200 Health Science Drive, Suite 400, Houston, TX 77030"
+Principal Investigator,Amanda Chen MD PhD
+PI NPI,1234567890
+Site Type,Academic Medical Center
+Affiliated Hospital,Houston Methodist Hospital
+Year Established,2008
+FWA Number,FWA00000001
+IRB of Record,WCG IRB (Central)
+IRB Turnaround Time (typical),28-35 days for initial review
+
+================================================================================
+SECTION B: SITE INFRASTRUCTURE
+================================================================================
+Infrastructure_Item,Available,Details
+Dedicated Research Clinic Space,Yes,"Suite 400: 6 exam rooms, 2 infusion chairs, 1 procedure room"
+Private Consenting Room,Yes,"Room 401 — sound-dampened, ADA accessible"
+Pharmacy with IP Storage,Yes,"On-site research pharmacy, pharmacist on staff M-F 8AM-5PM"
+Refrigerator (2-8°C),Yes,"2 units, continuously monitored with BioT wireless sensors"
+Freezer (-20°C),Yes,"1 unit, alarmed, backup power"
+Ultra-Low Freezer (-70/-80°C),Yes,"1 unit — available for PK/biomarker samples. Backup generator: yes."
+Ambient Controlled Storage,Yes,"Temp-monitored cabinet, 15-25°C"
+Centrifuge (refrigerated),Yes,"Eppendorf 5804 R — certified for PK processing"
+ECG Machine (12-lead),Yes,"GE MAC 2000 — calibrated quarterly, last cal: 2025-11-01"
+Spirometry Equipment,No,"Referral to pulmonary function lab at Houston Methodist (same campus)"
+DEXA Scanner,No,"Available at Houston Methodist radiology (2-day lead time)"
+CT/MRI On-site,No,"Houston Methodist imaging center — 0.3 miles, same-day scheduling available"
+PET/CT On-site,No,"MD Anderson PET Center — 1.2 miles, requires 5-day advance scheduling"
+Emergency Crash Cart,Yes,"Suite 400 hallway — checked monthly, last check: 2025-12-01"
+IVRS/IWRS Capability,Yes,"Dedicated landline + internet for randomization systems"
+EDC Workstations,Yes,"4 dedicated terminals with validated Medidata Rave access"
+Secure Document Storage,Yes,"Locked filing room (Room 410) + Florence eBinder (eISF)"
+
+================================================================================
+SECTION C: STAFFING AND EXPERIENCE
+================================================================================
+Staff_Role,Name,FTE_Allocation_to_Research,Years_Research_Exp,Active_Studies,GCP_Current,Protocol_Trained
+Principal Investigator,Dr. Amanda Chen,40%,20,4,Yes (exp 2027-01),ONK-301; DERM-110; CNS-205
+Sub-Investigator,Dr. Sunita Patel,30%,12,2,OVERDUE (exp 2025-09),ONK-301; CNS-205
+Sub-Investigator,Dr. Alex Wong,20%,5,1,Yes (exp 2026-07),DERM-110 (sig pending)
+Sub-Investigator,Dr. Emily Lee,25%,8,1,Yes (exp 2026-07),ONK-301
+Lead Coordinator,Maria Rodriguez,100%,15,4,Yes (exp 2025-11),ONK-301; DERM-110; CNS-205; LUNG-812
+Coordinator,James O'Connor,100%,4,2,Yes (exp 2026-02),ONK-301; DERM-110
+Coordinator,Sarah Kim,100%,6,2,Yes (exp 2026-09),CNS-205; LUNG-812
+Research Nurse,Lisa Thompson,60%,10,2,Yes (exp 2026-05),ONK-301; CNS-205
+Inv. Pharmacist,Dr. Robert Williams,50%,18,2,OVERDUE (exp 2025-04),ONK-301; CNS-205
+
+Total Research FTE: 5.25 (3.0 coordinator FTE + 1.15 investigator FTE + 0.6 nurse FTE + 0.5 pharmacist FTE)
+Coordinator-to-Patient Ratio: 1:7.3 (22 patients / 3.0 coordinator FTE)
+Industry Benchmark: 1:8-10 for oncology, 1:6-8 for CNS
+
+================================================================================
+SECTION D: PATIENT POPULATION AND ENROLLMENT HISTORY
+================================================================================
+Therapeutic_Area,Annual_New_Diagnoses_Catchment,Estimated_Eligible_per_Protocol,Realistic_Monthly_Enrollment,Screen_Failure_Rate_Historical
+NSCLC (ONK-301),~420/year from Houston Methodist + Harris Health System,~85 meet age/stage criteria,2.0-3.5 per month,62% (consistent with Phase III oncology)
+Plaque Psoriasis (DERM-110),~1800/year from dermatology referral network,~200 meet BSA/PASI thresholds,3.0-4.0 per month,28% (lower complexity eligibility)
+Alzheimer's Disease (CNS-205),~600/year from neurology + geriatric clinics,~40 meet cognitive/biomarker criteria,0.8-1.2 per month,55% (amyloid PET/CSF confirmed positive required)
+
+================================================================================
+SECTION E: COMPETING STUDIES
+================================================================================
+Protocol,Sponsor,Phase,Therapeutic Area,Status,Same_Patient_Population,Conflict_Risk
+LUNG-812,Merck,Phase III,NSCLC (2nd line),Recruiting (16/18 enrolled),Partial (2nd line vs 1st line),Low — different treatment line
+IMM-445,BMS,Phase II,Melanoma,Closing,No,None
+KEYNOTE-XYZ,Merck,Phase III,NSCLC (1st line),Under Feasibility,Yes — same population as ONK-301,High — direct competition for PD-L1+ 1st line patients
+
+================================================================================
+SECTION F: HISTORICAL PERFORMANCE METRICS
+================================================================================
+Metric,Oncology,Dermatology,CNS,Site_Average
+Avg Patients Enrolled per Study,14.2,11.8,6.5,10.8
+Avg Screen Failure Rate,62%,28%,55%,48%
+Avg Activation Time (CTA to FPFV),128 days,72 days,105 days,102 days
+Avg Query Response Time,4.2 days,2.8 days,5.1 days,4.0 days
+Protocol Deviation Rate (per patient),0.8,0.3,1.2,0.8
+SAE Reporting Compliance (within 24hr),98%,100%,96%,98%
+Source Document Completion Rate,94%,97%,91%,94%
+Subject Retention Rate,88%,92%,78%,86%
+Monitoring Visit Readiness Score,91%,95%,88%,91%
+
+================================================================================
+SECTION G: REGULATORY AND OPERATIONAL CAPABILITIES
+================================================================================
+Capability,Status,Notes
+IND Safety Reporting (24hr),Capable,"Dedicated safety fax line + electronic submission capability"
+Electronic Source (eSource),Not Yet,"Paper source with EDC double-entry. eSource planned 2026-Q2"
+Remote/Decentralized Trial Capability,Limited,"Telehealth for safety follow-up only. No home nursing or ePRO devices."
+Biorepository Capability,Yes,"Long-term sample storage at -80°C. MTA with NCI Biorepository."
+Companion Diagnostic Testing,Referral,"PD-L1 22C3: sent to Foundation Medicine (turnaround 5-7 business days)"
+Central Lab Kit Management,Capable,"LabCorp and ICON Central Lab experience. Kit receipt tracking in place."
+IP Destruction Capability,Yes,"On-site witnessed destruction with documentation per 21 CFR 312.62"
+Audit History,Passed,"FDA inspection 2023 (no 483 observations). Sponsor audit 2024 (2 minor findings, resolved)."
+Florence eBinder (eISF),Active,"All regulatory documents filed electronically in Florence eBinder."
+
+================================================================================
+SECTION H: SITE PRINCIPAL INVESTIGATOR ATTESTATION
+================================================================================
+I confirm that the information provided in this questionnaire is accurate and complete to the best of my knowledge.
+I understand that this information will be used by the sponsor to evaluate site feasibility for the referenced clinical trial(s).
+
+PI Signature: /s/ Amanda Chen, MD, PhD
+Date: 2025-12-15
