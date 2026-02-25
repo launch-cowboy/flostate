@@ -10,22 +10,6 @@ Flo State demo marketplace and supporting hackathon assets.
 - [Demo Output Files](#demo-output-files)
 - [GitHub File List Column (Red Box)](#github-file-list-column-red-box)
 
-## GitHub File List Column (Red Box)
-
-In the GitHub repository file browser, the highlighted middle column is:
-
-- **Latest commit**
-
-What belongs there:
-
-- A short, specific git commit message summarizing the most recent change for that file/folder.
-
-How it is populated:
-
-- GitHub automatically shows the message from the latest commit that touched that path.
-- It is not manually editable text in the UI.
-- To update that text, commit a change to the file/folder with a clearer commit message.
-
 ## Reference Docs
 
 - Complete reference markdown: [`docs/reference/Flo_State_Complete_Reference.md`](docs/reference/Flo_State_Complete_Reference.md)
