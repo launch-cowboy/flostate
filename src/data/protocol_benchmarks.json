@@ -1,0 +1,62 @@
+[
+    {
+        "id": "protocol-onk-301",
+        "protocolId": "ONK-301-2025",
+        "therapeuticArea": "Oncology",
+        "phase": "Phase III",
+        "overallScore": 8.2,
+        "dimensionScores": {
+            "visitBurden": 8,
+            "procedureComplexity": 9,
+            "eligibilityCriteria": 9,
+            "dataDensity": 8,
+            "amendmentRisk": 7,
+            "trainingRequirement": 8
+        },
+        "visitCount": 26,
+        "proceduresPerVisit": 14,
+        "eligibilityCriteriaCount": 32,
+        "duration": 24,
+        "enrollmentTarget": 450
+    },
+    {
+        "id": "protocol-cns-205",
+        "protocolId": "CNS-205-2024",
+        "therapeuticArea": "CNS",
+        "phase": "Phase II",
+        "overallScore": 5.8,
+        "dimensionScores": {
+            "visitBurden": 6,
+            "procedureComplexity": 6,
+            "eligibilityCriteria": 5,
+            "dataDensity": 5,
+            "amendmentRisk": 6,
+            "trainingRequirement": 7
+        },
+        "visitCount": 16,
+        "proceduresPerVisit": 8,
+        "eligibilityCriteriaCount": 15,
+        "duration": 18,
+        "enrollmentTarget": 200
+    },
+    {
+        "id": "protocol-derm-110",
+        "protocolId": "DERM-110-2025",
+        "therapeuticArea": "Dermatology",
+        "phase": "Phase III",
+        "overallScore": 4.3,
+        "dimensionScores": {
+            "visitBurden": 4,
+            "procedureComplexity": 3,
+            "eligibilityCriteria": 4,
+            "dataDensity": 5,
+            "amendmentRisk": 5,
+            "trainingRequirement": 5
+        },
+        "visitCount": 12,
+        "proceduresPerVisit": 5,
+        "eligibilityCriteriaCount": 10,
+        "duration": 12,
+        "enrollmentTarget": 600
+    }
+]

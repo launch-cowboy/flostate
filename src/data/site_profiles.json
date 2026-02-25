@@ -1,0 +1,110 @@
+[
+    {
+        "siteId": "SITE-001",
+        "siteName": "Metro Clinical Research Center",
+        "siteType": "Dedicated Research",
+        "location": "Houston, TX",
+        "staff": {
+            "crcs": 12,
+            "pis": 4
+        },
+        "activeStudies": 22,
+        "performanceTier": "High performer",
+        "historicalMetrics": {
+            "contractNegotiationDays": {
+                "mean": 21,
+                "stddev": 5
+            },
+            "irbApprovalDays": {
+                "mean": 28,
+                "stddev": 7
+            },
+            "regulatoryDocPrep": {
+                "mean": 10,
+                "stddev": 3
+            },
+            "staffTrainingDays": {
+                "mean": 5,
+                "stddev": 2
+            },
+            "sivToFpfvDays": {
+                "mean": 14,
+                "stddev": 5
+            },
+            "avgScreenFailRate": 0.15,
+            "avgEnrollmentRate": 4.5
+        }
+    },
+    {
+        "siteId": "SITE-002",
+        "siteName": "University Medical Center",
+        "siteType": "Academic Medical Center",
+        "location": "Boston, MA",
+        "staff": {
+            "crcs": 6,
+            "pis": 8
+        },
+        "activeStudies": 35,
+        "performanceTier": "Mixed",
+        "historicalMetrics": {
+            "contractNegotiationDays": {
+                "mean": 90,
+                "stddev": 20
+            },
+            "irbApprovalDays": {
+                "mean": 45,
+                "stddev": 15
+            },
+            "regulatoryDocPrep": {
+                "mean": 21,
+                "stddev": 7
+            },
+            "staffTrainingDays": {
+                "mean": 14,
+                "stddev": 4
+            },
+            "sivToFpfvDays": {
+                "mean": 30,
+                "stddev": 10
+            },
+            "avgScreenFailRate": 0.25,
+            "avgEnrollmentRate": 1.5
+        }
+    },
+    {
+        "siteId": "SITE-003",
+        "siteName": "Community Health Partners",
+        "siteType": "Community Hospital",
+        "location": "Des Moines, IA",
+        "staff": {
+            "crcs": 3,
+            "pis": 2
+        },
+        "activeStudies": 8,
+        "performanceTier": "Moderate",
+        "historicalMetrics": {
+            "contractNegotiationDays": {
+                "mean": 45,
+                "stddev": 10
+            },
+            "irbApprovalDays": {
+                "mean": 35,
+                "stddev": 8
+            },
+            "regulatoryDocPrep": {
+                "mean": 14,
+                "stddev": 4
+            },
+            "staffTrainingDays": {
+                "mean": 7,
+                "stddev": 3
+            },
+            "sivToFpfvDays": {
+                "mean": 21,
+                "stddev": 7
+            },
+            "avgScreenFailRate": 0.20,
+            "avgEnrollmentRate": 2.5
+        }
+    }
+]

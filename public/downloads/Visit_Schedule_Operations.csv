@@ -1,0 +1,13 @@
+Visit_Name,Visit_Window,Clinical_Domain,Procedures_Required,Est_Duration_Mins,Staff_Required,Source_Document_Ref
+V1_Screening,Day -14 to 0,Eligibility,"Informed Consent, Demographics, Med Hx, VS, PE, ECG, Labs (CBC/CMP/Lipid), Urinalysis, Review I/E",120,"Investigator, Coordinator, Phlebotomist",Source_SD_001
+V2_Baseline,Day 0,Randomization,"Confirm I/E, Randomize, Study Drug Dispense, VS, AE review, ConMed review",90,"Investigator, Coordinator, Pharmacist",Source_SD_002
+V3_Tx_Day_7,"Day 7 (± 1 day)",Treatment,"VS, AE review, ConMed review, Brief PE, Study Drug Compliance Check",60,"Coordinator, Investigator",Source_SD_003
+V4_Tx_Day_14,"Day 14 (± 1 day)",Treatment,"VS, AE review, ConMed review, Study Drug Return/Dispense, Labs (CBC/CMP)",60,"Coordinator, Investigator, Pharmacist",Source_SD_004
+V5_Tx_Day_21,"Day 21 (± 1 day)",Treatment,"VS, AE review, ConMed review, Brief PE, Study Drug Compliance Check",60,"Coordinator, Investigator",Source_SD_005
+V6_End_Of_Study,"Day 28 (± 3 days)",Follow-Up,"VS, PE, ECG, Labs (CBC/CMP/Lipid), Urinalysis, AE/ConMed review, Final Drug Return",120,"Investigator, Coordinator, Pharmacist",Source_SD_006
+Unscheduled_Visit,"Any time",Safety,"Symptom-directed PE, VS, AE review, ConMed review, Labs (if needed)",45,"Investigator, Coordinator",Source_SD_UNS
+
+Notes:
+* Ensure 12-hour fasting prior to V1 and V6 lab draws.
+* All female subjects of childbearing potential require a urine pregnancy test at every visit except V3 and V5.
+* ECGs must be performed in triplicate prior to any blood draws.

@@ -1,0 +1,50 @@
+[
+    {
+        "id": "doc1",
+        "name": "Informed Consent Form",
+        "version": "v2.0",
+        "status": "Signed",
+        "zone": "Zone 2",
+        "expirationDate": "2026-01-01"
+    },
+    {
+        "id": "doc2",
+        "name": "Financial Disclosure Form - PI",
+        "version": "v1.0",
+        "status": "Signed",
+        "zone": "Zone 1",
+        "expirationDate": "2026-01-01"
+    },
+    {
+        "id": "doc3",
+        "name": "Delegation_of_Authority_Log",
+        "version": "v1.0",
+        "status": "Signed",
+        "zone": "Zone 4",
+        "expirationDate": "2026-01-01"
+    },
+    {
+        "id": "doc4",
+        "name": "GCP Training Certificate - Smith",
+        "version": "v1.0",
+        "status": "Signed",
+        "zone": "Zone 5",
+        "expirationDate": "2026-01-01"
+    },
+    {
+        "id": "doc5",
+        "name": "PI Medical License",
+        "version": "v1.0",
+        "status": "Active",
+        "zone": "Zone 3",
+        "expirationDate": "2024-05-15"
+    },
+    {
+        "id": "doc6",
+        "name": "Lab Certification",
+        "version": "v1.0",
+        "status": "Unsigned",
+        "zone": "Zone 5",
+        "expirationDate": "2026-01-01"
+    }
+]

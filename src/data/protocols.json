@@ -1,0 +1,35 @@
+[
+    {
+        "id": "ONK-301-2025",
+        "name": "Phase III Trial in NSCLC",
+        "therapeuticArea": "Oncology",
+        "phase": "III",
+        "characteristics": "Biomarker stratification, 32 eligibility criteria, companion diagnostic required",
+        "visits": 26,
+        "proceduresPerVisit": 14,
+        "durationMonths": 24,
+        "complexity": "High"
+    },
+    {
+        "id": "CNS-205-2024",
+        "name": "Phase II Alzheimer's Assessment",
+        "therapeuticArea": "CNS",
+        "phase": "II",
+        "characteristics": "Cognitive assessments, MRI requirements, caregiver participation",
+        "visits": 16,
+        "proceduresPerVisit": 8,
+        "durationMonths": 18,
+        "complexity": "Moderate"
+    },
+    {
+        "id": "DERM-110-2025",
+        "name": "Phase III Psoriasis Management",
+        "therapeuticArea": "Dermatology",
+        "phase": "III",
+        "characteristics": "Photography requirements, patient-reported outcomes",
+        "visits": 12,
+        "proceduresPerVisit": 5,
+        "durationMonths": 12,
+        "complexity": "Low-Moderate"
+    }
+]

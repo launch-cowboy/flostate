@@ -1,0 +1,132 @@
+{
+    "name": "Maria Rodriguez",
+    "role": "Senior Clinical Research Coordinator",
+    "site": "Metro Clinical Research Center",
+    "date": "2026-02-23",
+    "activeStudies": [
+        {
+            "id": "ONK-301",
+            "name": "Phase III NSCLC",
+            "status": "recruiting",
+            "patients": 12
+        },
+        {
+            "id": "CNS-205",
+            "name": "Phase II Alzheimer's",
+            "status": "active",
+            "patients": 8
+        },
+        {
+            "id": "DERM-110",
+            "name": "Phase III Psoriasis",
+            "status": "startup",
+            "patients": 0
+        },
+        {
+            "id": "CARD-404",
+            "name": "Phase II Heart Failure",
+            "status": "recruiting",
+            "patients": 5
+        },
+        {
+            "id": "RARE-009",
+            "name": "Phase I Gene Therapy",
+            "status": "active",
+            "patients": 2
+        },
+        {
+            "id": "ONK-202",
+            "name": "Phase II Breast Cancer",
+            "status": "follow-up",
+            "patients": 20
+        },
+        {
+            "id": "ONK-505",
+            "name": "Phase I Solid Tumor",
+            "status": "recruiting",
+            "patients": 3
+        },
+        {
+            "id": "CNS-101",
+            "name": "Phase III MS",
+            "status": "close-out",
+            "patients": 15
+        }
+    ],
+    "tasks": [
+        {
+            "id": "t1",
+            "title": "Submit ONK-301 Protocol Amendment 4 to IRB",
+            "priority": "high",
+            "due": "Today, 5:00 PM"
+        },
+        {
+            "id": "t2",
+            "title": "Complete EDC data entry for Patient 104 (CNS-205)",
+            "priority": "high",
+            "due": "Today, EOD"
+        },
+        {
+            "id": "t3",
+            "title": "Prep for DERM-110 Site Initiation Visit",
+            "priority": "medium",
+            "due": "Tomorrow, 9:00 AM"
+        },
+        {
+            "id": "t4",
+            "title": "Resolve 5 open queries on RARE-009",
+            "priority": "medium",
+            "due": "Feb 25"
+        },
+        {
+            "id": "t5",
+            "title": "Obtain PI signature on updated Delegation Log",
+            "priority": "high",
+            "due": "Today"
+        }
+    ],
+    "alerts": [
+        {
+            "id": "a1",
+            "severity": "critical",
+            "message": "Sub-I Dr. Chen's Medical License expires in 7 days."
+        },
+        {
+            "id": "a2",
+            "severity": "major",
+            "message": "Temperature excursion detected in Pharmacy Fridge B (-80C)."
+        },
+        {
+            "id": "a3",
+            "severity": "minor",
+            "message": "Missed follow-up window for Subject 003 (CARD-404)."
+        }
+    ],
+    "communications": [
+        {
+            "id": "c1",
+            "type": "Draft Email",
+            "to": "c.monitor@sponsor.com",
+            "subject": "Re: ONK-301 Missing ICF",
+            "preview": "I have located the missing Version 2.0 ICF for subject 402 and uploaded it to the eTMF..."
+        },
+        {
+            "id": "c2",
+            "type": "Draft IRB Submission",
+            "to": "Metro IRB",
+            "subject": "Protocol Deviation - Subject 105",
+            "preview": "Subject 105 missed their Window 4 visit due to extreme weather..."
+        }
+    ],
+    "scheduleConflicts": [
+        {
+            "date": "Tomorrow",
+            "studies": [
+                "DERM-110",
+                "ONK-202"
+            ],
+            "issue": "Double-booked monitoring visits for CRA Smith and CRA Jones in Conference Room A.",
+            "recommendation": "Move CRA Jones to Office Suite 3."
+        }
+    ]
+}
