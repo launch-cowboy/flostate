@@ -1,0 +1,62 @@
+Domain,Weight,Score,Rating,Benchmark_Phase_II_CNS,Comparison,Key_Driver_1,Key_Driver_2,Key_Driver_3
+Operational Execution,25%,8.2,Very High,5.8,Above Benchmark (+41%),"18 infusion visits over 18 months","Each infusion requires 3-hr observation + vital sign monitoring","MRI within 24 hours post-infusion for ARIA monitoring (first 4 infusions)"
+Regulatory Oversight,20%,7.1,Very High,5.2,Above Benchmark (+37%),"Independent DSMB required (Alzheimer's — ARIA safety signal)","Suicidal ideation monitoring (C-SSRS at every visit) — FDA post-marketing guidance","Amyloid PET imaging requires IND for tracer (Florbetapir/Florbetaben)"
+Patient Burden,20%,8.8,Very High,6.0,Above Benchmark (+47%),"10 inclusion / 12 exclusion criteria (stringent)","Amyloid PET confirmation + optional CSF Aβ42/tau ratio required","Cognitive assessments at every visit: CDR-SB + MMSE + ADAS-Cog-14 (~90 min battery)"
+Site Burden,20%,7.9,Very High,5.5,Above Benchmark (+44%),"Certified CDR rater + ADAS-Cog rater required (separate certifications)","Study partner must attend every visit for CDR informant interview","IV infusion preparation + 3-hr post-infusion monitoring at every treatment visit"
+Study Design,15%,6.5,High,4.8,Above Benchmark (+35%),"1:1 randomization, 3 stratification factors (ApoE4 status, prior cholinesterase inhibitor, baseline CDR-SB)","Dual primary endpoints: CDR-SB + ADAS-Cog-14 (requires both endpoints hit)","Amyloid PET at baseline + month 18 (logistics + cost)"
+
+COMPOSITE SCORE (Weighted),100%,7.8,Very High,5.5,Above Benchmark (+42%),,,
+
+THERAPEUTIC AREA CALIBRATION
+Therapeutic Area,CNS/Neuroscience
+Multiplier Applied,1.2×
+Calibrated Composite,7.8 (raw 6.50 × 1.2)
+Interpretation,"CNS 1.2× multiplier reflects cognitive assessment complexity, study partner dependency, ARIA monitoring requirements, and extended treatment duration. Higher than general medicine but below oncology complexity."
+
+BENCHMARK COMPARISON
+Metric,CNS-205 Value,Phase II CNS/Alzheimer's Benchmark,Status
+Total Planned Visits,18 infusion + safety visits,12-16,Exceeds
+Treatment Duration,18 months,12-18 months,Upper Range
+Procedures per Patient (total),312+,200-250,Exceeds
+Non-Core Procedure Ratio,18%,14%,Exceeds (PET + CSF driving excess)
+Eligibility Criteria Count,22 (10I + 12E),18-30,Within Range
+Estimated Screen Failure Rate,55%,45-60%,Within Range
+Cognitive Assessment Battery Duration,~90 min per visit,60-90 min,Upper Range
+Training Certifications Required,6 (CDR rater + ADAS-Cog rater + C-SSRS rater + MRI safety + infusion nurse + GCP),4-6,Within Range
+
+BURDEN FLAGS
+Flag_ID,Element,Protocol_Value,Benchmark_Value,Impact
+BF-001,"Cognitive Assessment Battery","CDR-SB + MMSE + ADAS-Cog-14 at every visit (~90 min)","CDR-SB + one secondary at key visits (~45 min)","2× assessment burden — patient/study partner fatigue affects data quality"
+BF-002,"Study Partner Requirement","Must attend every visit for CDR informant interview","Key visits only","Major enrollment barrier — 15-20% of eligible patients lack consistent study partner"
+BF-003,"ARIA Monitoring MRI","Within 24 hours of first 4 infusions, then per event","Within 72 hours of first 3 infusions","24-hr MRI requirement creates scheduling bottleneck — requires same-day or next-day MRI slot"
+BF-004,"Amyloid PET Scan","Required at baseline + Month 18","Baseline only (efficacy by clinical endpoints)","2× PET costs ($5000-7000 per scan) — Month 18 PET adds cost + scheduling + radiation exposure"
+BF-005,"CSF Collection (Optional)","Lumbar puncture at baseline + Month 12","Not typically required in Phase II","LP is invasive — patient refusal rate 40-60% despite being optional"
+BF-006,"Infusion Duration + Monitoring","60-min IV infusion + 3-hr observation","60-min infusion + 1-hr observation","3× observation time — driven by ARIA risk in ApoE4 homozygotes"
+BF-007,"C-SSRS Assessment","Columbia Suicide Severity Rating Scale at every visit","At screening + every 3 months","3× more frequent — FDA post-marketing guidance for CNS agents"
+
+AMENDMENT RISK ASSESSMENT
+Baseline Amendment Probability,72%
+CNS-205 Estimated Probability,78%
+Risk Drivers,"Dual primary endpoints (CDR-SB + ADAS-Cog-14 both must hit — increases statistical risk); ARIA monitoring protocol may require adjustment based on interim safety data; amyloid PET tracer supply chain variability; study partner attendance requirements may need relaxation"
+Estimated Cost per Amendment,$425000 (Phase II CNS median)
+Estimated Days per Amendment,220 days (Phase II CNS median)
+
+SITE HOURS ESTIMATE
+Phase,Hours_Per_Patient,Notes
+Screening,6.0,"Consent + study partner consent (1.5 hr), medical/neuro history (1 hr), cognitive battery (1.5 hr), PE + vitals + labs (0.5 hr), amyloid PET coordination (0.5 hr), MRI safety screening (0.5 hr), C-SSRS (0.5 hr)"
+Treatment (per visit × 18),4.5,"Pre-infusion labs + vitals (0.5 hr), infusion prep + administration (1.5 hr), 3-hr post-infusion observation, cognitive assessment (1.5 hr at assessment visits)"
+MRI Monitoring (first 4 visits),1.0,"MRI scheduling + escort + review (per visit)"
+End of Treatment,7.0,"Full cognitive battery (1.5 hr), PE + labs (0.5 hr), Month 18 amyloid PET (3 hr including scheduling/transport), C-SSRS (0.5 hr), AE/ConMed review (0.5 hr), study partner interview (1 hr)"
+Safety Follow-Up,1.0,"Telephone or clinic visit, AE assessment"
+Total per Patient,98.0,"Screening (6) + 18 treatment visits (81) + 4 MRI visits (4) + EOT (7) + follow-up (1) = ~98 hours — approximately 2× oncology site hours"
+
+ACTIONABLE RECOMMENDATIONS
+Rank,Recommendation,Expected_Reduction,Domain_Impact
+1,"Relax MRI timing from 24 hours to 72 hours post-infusion","Eliminates same-day MRI scheduling bottleneck — estimated 30% fewer rescheduled visits","Operational Execution: −0.8 points"
+2,"Reduce cognitive battery at non-key visits to CDR-SB only (keep full battery at Baseline, M6, M12, M18)","Saves ~45 min per non-key visit × 14 visits = 10.5 hours/patient","Patient Burden: −0.6 points, Site Burden: −0.4 points"
+3,"Allow remote study partner interviews via video for CDR informant component","Reduces study partner attendance barrier — estimated 15% enrollment improvement","Patient Burden: −0.5 points"
+4,"Remove Month 18 amyloid PET (rely on CDR-SB + ADAS-Cog-14 for efficacy)","Saves $5000-7000 per patient + eliminates end-of-study scheduling bottleneck","Site Burden: −0.3 points, Operational Execution: −0.2 points"
+5,"Reduce C-SSRS from every visit to screening + every 3 months + as-needed","Saves ~5 min per visit × 14 visits = 1.2 hours/patient","Patient Burden: −0.2 points"
+
+COMPLIANCE NOTE
+"This scorecard is advisory only. CNS/Neuroscience 1.2× therapeutic area multiplier applied per Florence Flo State calibration framework. ARIA monitoring parameters are safety-critical and must not be modified without DSMB review and FDA consultation."

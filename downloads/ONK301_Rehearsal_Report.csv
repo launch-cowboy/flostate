@@ -1,0 +1,98 @@
+DIGITAL TRIAL REHEARSAL REPORT
+Protocol: ONK-301-2025 | Phase III | Oncology (NSCLC)
+Target Enrollment: 450 patients across 30 sites
+Simulation: 1000 Monte Carlo iterations
+Complexity Score Applied: 7.3 (Very High) — Multiplier: 1.6x
+Report Generated: 2026-02-25
+
+================================================================================
+ACTIVATION TIMELINE FORECAST — Metro Clinical Research Center (Academic)
+================================================================================
+Phase,Median_Days,P10_Days,P90_Days,Delay_Probability,Risk_Level
+Contract Negotiation,88,52,142,42%,High
+IRB/Ethics Approval (Central IRB),40,25,62,18%,Medium
+Regulatory Document Preparation,28,16,48,22%,Medium
+Staff Training (7 roles),18,10,30,15%,Low
+SIV Scheduling,16,9,25,8%,Low
+TOTAL ACTIVATION,142,98,198,,High
+
+================================================================================
+ACTIVATION TIMELINE — By Site Archetype
+================================================================================
+Site_Type,Median_Activation_Days,P10,P90,Enrollment_Rate_Mo,Risk
+Dedicated Research Site,82,55,118,2.7,Low
+Community Hospital,105,68,165,1.7,Medium
+Academic Medical Center,142,98,198,3.0,High
+Low-Performing Site,168,112,240,1.0,Very High
+
+================================================================================
+CRITICAL PATH ANALYSIS
+================================================================================
+Phase,Critical_Path_Probability,Notes
+Contract Negotiation,62%,"On critical path in 62% of simulations. Academic sites: median 88 days driven by institutional legal review, budget committee approval cycles, and indemnification negotiations."
+IRB/Ethics Approval,28%,"Central IRB reduces variability. On critical path primarily when contract completes early and IRB backlog exists."
+Staff Training,8%,"7-role certification requirement extends timeline when contract/IRB complete simultaneously."
+Other,2%,"Regulatory prep and SIV rarely on critical path with experienced sites."
+
+================================================================================
+ENROLLMENT FORECAST
+================================================================================
+Metric,Optimistic_P10,Median,Pessimistic_P90
+Time to First Patient (FPFV),82 days,108 days,156 days
+Time to 25% Enrollment (113 pts),145 days,198 days,278 days
+Time to 50% Enrollment (225 pts),218 days,295 days,402 days
+Time to 75% Enrollment (338 pts),285 days,378 days,498 days
+Time to Full Enrollment (450 pts),342 days,448 days,582 days
+Expected Screen Failure Rate,58%,68%,78%
+Patients Needed to Screen,1071,1406,2045
+
+================================================================================
+BOTTLENECK IDENTIFICATION (Ranked by Impact)
+================================================================================
+
+Rank_1: Contract Negotiation at Academic Sites
+Probability: 62% of iterations cause >2 week delay
+Impact: Median +35 days to total timeline
+Mitigation: Pre-negotiate master CTA with institutional template. Engage legal 4 weeks before site selection. Use Florence pre-executed CTA library for budget templates. Historical data shows pre-negotiated CTAs reduce median contract time from 88 to 25 days.
+
+Rank_2: Screen Failure Rate Exceeding 70%
+Probability: 38% of iterations
+Impact: Median +52 days to enrollment completion
+Mitigation: Implement pre-screening protocol using EHR inclusion criteria check. Target sites with established NSCLC patient populations. Consider expanding PD-L1 stratification to reduce screen failure from biomarker mismatch.
+
+Rank_3: Coordinator Capacity Constraints
+Probability: 25% of iterations
+Impact: Median +18 days due to productivity degradation
+Mitigation: Assign dedicated coordinator for ONK-301 at high-enrollment sites. Maria Rodriguez currently manages 4 studies with 22 patients — within capacity but will hit threshold at 30 patients. Plan for backup coordinator assignment at enrollment milestone 15.
+
+================================================================================
+SITE COMPARISON — Top 5 Recommended Sites
+================================================================================
+Rank,Site_Name,Type,Median_Activation,Enrollment_Rate,Risk,Wave,Rationale
+1,Metro Clinical Site 2198,Dedicated Research,74 days,2.8/month,Low,Wave 1,"Pre-negotiated CTA, experienced coordinator, 5 active studies"
+2,Central Research Partners,Dedicated Research,78 days,2.5/month,Low,Wave 1,"Strong lung cancer registry, 3 active IO trials"
+3,Metro Clinical Research Center,Academic,142 days,3.2/month,Medium,Wave 1,"Highest enrollment ceiling, PI (Dr. Chen) has 47 trial PI experience"
+4,Community Oncology Network #4521,Community,105 days,1.8/month,Medium,Wave 2,"Good catchment area, but 35% probability contract exceeds 60 days"
+5,Regional Cancer Center #1847,Community,112 days,1.5/month,Medium,Wave 2,"Needs coordinator training, moderate enrollment history"
+
+================================================================================
+COST-OF-DELAY ESTIMATE
+================================================================================
+Metric,Value,Basis
+Daily site cost (all 30 sites),$ 47500,"Staff, overhead, IP storage"
+Monthly portfolio cost,$ 1425000,"30 sites × $47,500/day × 30 days"
+Cost of 1-month enrollment delay,$ 1425000,"Across entire study"
+50% activation time reduction savings,$ 3562500,"~2.5 months saved across 30-site portfolio"
+Reference: Phesi Site Effectiveness Index — site activation consumes 2/3 of enrollment cycle time
+
+================================================================================
+SCHEDULING CONFLICTS DETECTED
+================================================================================
+Conflict_ID,Type,Studies,Date,Description,Suggested_Resolution
+SC-001,Overlapping Monitoring Visits,"ONK-301 + CNS-205",2026-03-15,"Pfizer CRA and Florence CRA both scheduled 2:00 PM at Metro Clinical","Reschedule CNS-205 visit to 2026-03-16 10:00 AM (CRA confirmed available)"
+SC-002,Coordinator Capacity,"DERM-110 + LUNG-812",2026-03-22,"Maria Rodriguez has 4 patient visits + monitoring visit prep on same day","Reassign 2 LUNG-812 follow-up visits to James O'Connor"
+
+================================================================================
+COMPLIANCE STATEMENT
+================================================================================
+"This report contains probabilistic projections based on Monte Carlo simulation using industry benchmark distributions (Zhong, Xing, Yu & Wang 2023; Anisimov & Fedorov 2007). Results are not guarantees. All projections require human judgment before operational decisions. Distributional assumptions are documented above for audit purposes."

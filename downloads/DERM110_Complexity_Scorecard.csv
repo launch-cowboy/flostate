@@ -1,0 +1,57 @@
+Domain,Weight,Score,Rating,Benchmark_Phase_III_Dermatology,Comparison,Key_Driver_1,Key_Driver_2,Key_Driver_3
+Operational Execution,25%,4.8,Moderate,4.2,Above Benchmark (+14%),"8 visits over 20 weeks (standard for derm)","7 distinct procedures per treatment visit","Topical application compliance monitoring (tube weight + diary)"
+Regulatory Oversight,20%,3.5,Moderate,3.8,Below Benchmark (-8%),"Single-country (domestic US only)","Central IRB only (WCG)","No DSMB required (topical agent, low systemic exposure)"
+Patient Burden,20%,5.1,High,3.6,Above Benchmark (+42%),"8 inclusion / 7 exclusion criteria (moderate)","PASI ≥ 12 + BSA ≥ 10% + IGA ≥ 3 triple threshold at screening AND baseline","4-week washout from all systemic psoriasis therapies"
+Site Burden,20%,5.8,High,4.0,Above Benchmark (+45%),"Certified PASI rater consistency requirement (same rater all visits)","Standardized clinical photography at every visit (3 target lesions)","ePRO daily pruritus NRS diary — site must review and troubleshoot compliance"
+Study Design,15%,3.9,Moderate,3.5,Above Benchmark (+11%),"1:1 randomization, 2 stratification factors (BSA severity, prior biologic use)","Single primary endpoint: PASI 75 at Week 16","Low amendment risk — straightforward topical design"
+
+COMPOSITE SCORE (Weighted),100%,4.7,Moderate,3.8,Above Benchmark (+24%),,,
+
+THERAPEUTIC AREA CALIBRATION
+Therapeutic Area,Dermatology
+Multiplier Applied,0.8×
+Calibrated Composite,4.7 (raw 5.88 × 0.8)
+Interpretation,"Dermatology 0.8× multiplier reflects lower operational complexity vs oncology/CNS: no infusions, no PK sampling, outpatient visits only, standard safety monitoring."
+
+BENCHMARK COMPARISON
+Metric,DERM-110 Value,Phase III Dermatology Benchmark,Status
+Total Planned Visits,8 in-clinic + 1 telephone,6-10,Within Range
+Procedures per Patient (total),~95,70-100,Within Range
+Non-Core Procedure Ratio,14%,12%,Slightly Above (photography driving excess)
+Eligibility Criteria Count,15 (8I + 7E),12-20,Within Range
+Estimated Screen Failure Rate,28%,20-35%,Within Range
+Endpoints (total),5 (PASI 75 primary),3-6,Within Range
+Training Roles Required,5 (investigator + coordinator + PASI rater + photographer + phlebotomist),3-5,Within Range
+
+BURDEN FLAGS
+Flag_ID,Element,Protocol_Value,Benchmark_Value,Impact
+BF-001,"PASI Rater Consistency","Same certified rater all visits","Any certified rater","Scheduling constraint — if rater absent, visit cannot proceed"
+BF-002,"Clinical Photography","3 target lesions every visit","2 lesions at key visits","33% more photography — requires calibrated derm camera + consistent positioning"
+BF-003,"Washout Period","4 weeks all systemics","2-4 weeks","Upper end of washout — may delay enrollment for patients on biologics"
+BF-004,"Compliance Monitoring","Tube weight + patient diary","Tube weight only","Dual compliance tracking adds coordinator review burden"
+BF-005,"ePRO Daily Diary","Daily NRS pruritus + adherence confirmation","Weekly NRS","7× reporting frequency — higher patient dropout risk if non-compliant"
+
+AMENDMENT RISK ASSESSMENT
+Baseline Amendment Probability,58%
+DERM-110 Estimated Probability,42%
+Risk Assessment,"Below baseline — straightforward topical design with single primary endpoint. Low complexity randomization. Minimal amendment risk."
+Estimated Cost per Amendment,$320000 (Phase III dermatology median)
+Estimated Days per Amendment,180 days (Phase III dermatology median)
+
+SITE HOURS ESTIMATE
+Phase,Hours_Per_Patient,Notes
+Screening,2.0,"Consent (0.5 hr), PE + vitals + labs (0.5 hr), PASI scoring + BSA + IGA (0.5 hr), photography (0.3 hr), diary training (0.2 hr)"
+Treatment (per visit × 5),1.5,"PASI + IGA (0.4 hr), photography (0.3 hr), vitals + labs (0.3 hr), AE/ConMed review (0.2 hr), compliance check (0.3 hr)"
+Primary Endpoint (Week 16),2.5,"Full PASI (0.5 hr), PE + labs + PG test (0.5 hr), photography (0.3 hr), collect all remaining drug (0.5 hr), optional biopsy (0.7 hr)"
+Follow-Up (Week 20),1.5,"PASI + photography + diary collection"
+Total per Patient,13.5,"Screening (2.0) + 5 treatment visits (7.5) + primary EP (2.5) + follow-up (1.5)"
+
+ACTIONABLE RECOMMENDATIONS
+Rank,Recommendation,Expected_Reduction,Domain_Impact
+1,"Allow any certified PASI rater (not same rater) — reduces scheduling constraint","Eliminates visit rescheduling risk when rater absent","Site Burden: −0.4 points"
+2,"Reduce photography to Baseline, Week 8, Week 16, and Week 20 only (not every visit)","2 fewer photography sessions per patient — saves 0.6 hours/patient","Site Burden: −0.3 points"
+3,"Switch ePRO from daily to weekly NRS pruritus reporting","Reduces patient burden and dropout from diary fatigue","Patient Burden: −0.5 points"
+4,"Shorten washout for non-biologic systemics to 2 weeks (retain 4 weeks for biologics)","Accelerates enrollment for patients on methotrexate/cyclosporine","Patient Burden: −0.3 points"
+
+COMPLIANCE NOTE
+"This scorecard is advisory only. Dermatology 0.8× therapeutic area multiplier applied per Florence Flo State calibration framework. Scores are not comparable across therapeutic areas without multiplier adjustment."
