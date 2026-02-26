@@ -1,9 +1,22 @@
-# flo state hackathon demo
+# Flo State
 
 Your ClinOps Concierge for Everyday AI.
 
+---
+
+### Try It Now
+
+| | |
+|---|---|
+| **Live Demo** | [launch-cowboy.github.io/flostate](https://launch-cowboy.github.io/flostate/) |
+| **Desktop App (Mac)** | [Download Flo-State-1.0.0-mac.dmg](https://github.com/launch-cowboy/flostate/releases/latest/download/Flo-State-1.0.0-mac.dmg) |
+| **Demo Walkthrough** | [View GIF Walkthrough](docs/demo/flo-state-full-walkthrough.gif) |
+
+---
+
 ## Quick Navigation
 
+- [Try It Now](#try-it-now)
 - [Getting Started Guide](GETTING_STARTED.md)
 - [Reference Docs](#reference-docs)
 - [Catalog Data (App)](#catalog-data-app)
